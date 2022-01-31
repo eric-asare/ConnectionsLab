@@ -22,7 +22,7 @@ Switching between full screen for the Chrome Dev Tools. On that note, Chrome Dev
 and transfer the working styles to my CSS file. 
 
 ### FINAL
-The working link to final webpage ![WebPage- HTML & CSS](https://eric-asare.github.io/ConnectionsLab/week1/goStudyWebPageDocumentation/webpage-part1/goStudyWebPage/index.html)
+The working link to final webpage ![WebPage_Final](https://eric-asare.github.io/ConnectionsLab/week1/goStudyWebPageDocumentation/webpage-final/goStudyWebPage/index.html)
 
 
 
