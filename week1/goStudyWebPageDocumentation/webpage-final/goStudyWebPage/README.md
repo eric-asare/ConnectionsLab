@@ -10,7 +10,7 @@ I would have spent more time making design decision if I had not already drawn t
 
 ### HTML
 I started the development by translating the wireframe into HTML. 
-This was the outcome - ![WebPage-HTML](https://eric-asare.github.io/ConnectionsLab/week1/goStudyWebPageDocumentation/webpage-part1/goStudyWebPage/index.html)
+This was the outcome - [WebPage-HTML](https://eric-asare.github.io/ConnectionsLab/week1/goStudyWebPageDocumentation/webpage-part1/goStudyWebPage/index.html)
 
 One hard lesson I learnt from the above step is to fully document my projects since I spent some hours to reread my old code to gather more info about
 my project for the webpage. 
@@ -22,7 +22,7 @@ Switching between full screen for the Chrome Dev Tools. On that note, Chrome Dev
 and transfer the working styles to my CSS file. 
 
 ### FINAL
-The working link to final webpage ![WebPage_Final](https://eric-asare.github.io/ConnectionsLab/week1/goStudyWebPageDocumentation/webpage-final/goStudyWebPage/index.html)
+The working link to final webpage [WebPage_Final](https://eric-asare.github.io/ConnectionsLab/week1/goStudyWebPageDocumentation/webpage-final/goStudyWebPage/index.html)
 
 
 
