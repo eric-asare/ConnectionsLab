@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/goStudy-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/goStudy-16x16.png">
+    <link rel="stylesheet" href="style.css">
+    <title>goStudy Project Documentation</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="nav">
+        <div class="nav__logo">
+            <img class="nav__logo-img" src="icons/goStudy-128x128.png" alt="goStudy Logo">
+            <h1 class="nav__logo-name">goStudy</h1>
+        </div>
+        <div class="nav__links">
+            <ul class="nav__links--list">
+                <li class="nav__links--list-item"><a href="#problem-link" target="_self">Problem</a></li>
+                <li class="nav__links--list-item"> <a href="#process-link" target="_self">Process</a></li>
+                <li class="nav__links--list-item"> <a href="#product-link" target="_self">Product</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!-- PROBLEM AND MOTIVATION SECTION -->
+    <section id="problem-link" class="problem">
+        <div class="problem__content">
+            <div class="problem__content--info">
+                <h2>Motivation</h2>
+                <p> Do you love Social Media as I do and cannot get work or studies done?
+                    You are
+                    at the right place.<br>
+
+                    <a>goStudy</a> blocks all social media websites on a single click!
+                </p>
+            </div>
+            <div class="problem__content--img">
+                <img src="images/Social-Media-Distractions.jpeg"
+                    alt="a student studying but distracted by social media sites">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EXTENSION DEVELOPMENT SECTION -->
+    <section id="process-link" class="process">
+        <h2 class="process__title">Development Process</h2>
+        <div class="process__content">
+            <div class="process__content--about">
+                <p>
+                    This extension is essentially a collection of HTML, CSS, and JavaScript codes that allow us to add
+                    some
+                    extra functionality to the Chrome browser using its JavaScript APIs.
+                </p>
+                <p>
+                    When the goStudy extension detects a distracting website like instagram from the window location
+                    hostname, it redirects the user to the default page.
+                </p>
+
+            </div>
+            <div class="process__content--setup">
+                <h3>The Coding Process</h3>
+                <div class="process__content--setup-info">
+                    <div class="process__content--setup-info-text">
+                        <p>
+                            To build the extension , I needed
+                        <ul>
+                            <li>An icon for the extension on all devices</li>
+                            <li> A manifest file that tells Chrome what needs to be loaded so that it runs effectively
+                            </li>
+                            <li> A user interface that is displayed when the extension icon is clicked</li>
+                            <li> The Javascript(logic) to detect url visited and redirect the user </li>
+                            <li>The redirect page to inspire user to keep studying</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="process__content--setup-info-image">
+                        <img class="process__content--info-image-ui" src="images/user_interface.png"
+                            alt="stay focus my friend">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- DEMO AND INSTALLATION -->
+    <section id="product-link" class="product">
+        <div class="product__content">
+            <div class="product__content--heading">
+                <h3>How does goStudy work?</h3>
+            </div>
+
+            <div class="product__content--info">
+                <div class="product__content--info-steps">
+                    <ol>
+                        <li> Download a zip file of the extension from this <a
+                                href="https://github.com/eric-asare/goStudy" target="_blank">repository</a> .
+                        </li>
+                        <li>Follow the Demo below to install and use on your device</li>
+                    </ol>
+                </div>
+                <h3>Demo</h3>
+                <div class="product__content--info-demo">
+
+                    <iframe src="https://player.vimeo.com/video/615017923?h=0e590b8287" width="640" height="400"
+                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer__container">
+        <div class="footer__container--rights"> goStudy |Copyright &copy; 2021 &nbsp; Eric Asare</div>
+        <div class="footer__container--contact">
+            <a name="github" href="http://www.github.com/eric-asare"> <i class="fab fa-github fa-2x"></i> </a>
+            <a name="linkedin" href="http://www.linkedin.com/in/eric-asare/"> <i class="fab fa-linkedin fa-2x"></i> </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

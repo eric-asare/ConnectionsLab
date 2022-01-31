@@ -1,0 +1,169 @@
+body {
+    background-color: #272640;
+    color: #fff;
+    padding: 2em;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* LINKS */
+a{
+    color:#b85ab0;
+}
+
+
+/* NAVIGATION BAR */
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav__logo{
+    display:flex;
+}
+
+.nav__logo-img{
+    border-radius: 10%;
+    width: 50%;
+    height: 50%;
+}
+
+.nav__logo-name{
+    color:#1c77c3;
+    display: inline;
+    margin: 1em;
+}
+
+.nav__links--list li{
+    display: inline;
+    padding: 0 1em 0 0;
+
+}
+
+/* PROBLEM AND MOTIVATION SECTION  */
+
+.problem__content{
+    display:flex;
+    flex-direction: column;
+    line-height: 200%;
+}
+
+.problem__content--info{
+    text-align: center;
+   
+}
+
+.problem__content--info a{
+    color:#1c77c3;
+   
+}
+
+.problem__content--info h2{
+    color:#b98d3c;
+     
+}
+
+
+.problem__content--img{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+.problem__content--img img{
+    border-radius: 10%;
+ 
+}
+
+ /* EXTENSION DEVELOPMENT SECTION  */
+ .process__title{
+     text-align: center;
+     color:#b98d3c;
+ }
+
+ .process__content--about{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+
+ .process__content--setup-info{
+     display: flex;
+     justify-content: space-evenly;
+   
+ }
+
+ .process__content--info-image-ui{
+     height: 20em;
+ }
+
+ .process__content--setup h3{
+    margin-top: 2em;
+    color: #b98d3c;
+}
+ .process__content--setup-info-text{
+    line-height: 1.8em;
+  
+}
+
+.process__content--setup-info-image-re{
+    display: flex;
+   justify-content: space-around;
+    margin:2em;
+
+}
+
+
+ /* DEMO AND INSTALLATION  */
+ .product__content{
+     display:flex;
+     flex-direction: column;
+ }
+
+ .product__content--heading{
+     text-align: center;
+     color:#b98d3c;
+ }
+
+
+ .product__content--info-steps{
+    text-align: left-align;
+    padding: 0 30%;
+ }
+
+ .product__content--info h3{
+    margin-top: 2em;
+    color: #b98d3c;
+    text-align: center;
+ }
+ .product__content--info-demo{
+     display:flex;
+     justify-content: space-around;
+ }
+
+
+
+
+  /* FOOOTER */
+
+ .footer__container{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: large;
+
+ }
+
+
+ .footer__container--contact a{
+  color:white;
+ }
+
+
+
+
+
+
