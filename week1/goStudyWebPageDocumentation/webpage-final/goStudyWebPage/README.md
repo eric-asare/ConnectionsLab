@@ -1,7 +1,6 @@
 # goStudy Project Documentation 
 ## Description
 I built a webpage to document my personal project - goStudy Chrome Extension. 
-[image]
 
 ### WIREFRAME
 I began by drawing the wireframe on paper then onto paint. Even though, I developed the website layout to be slightly different from the wireframe, 
@@ -22,7 +21,7 @@ Switching between full screen for the Chrome Dev Tools. On that note, Chrome Dev
 and transfer the working styles to my CSS file. 
 
 ### FINAL
-The working link to final webpage [WebPage_Final](https://eric-asare.github.io/ConnectionsLab/week1/goStudyWebPageDocumentation/webpage-final/goStudyWebPage/index.html)
+The working link to final webpage [WebPage-HTML&CSS](https://eric-asare.github.io/ConnectionsLab/week1/goStudyWebPageDocumentation/webpage-final/goStudyWebPage/index.html)
 
 
 
