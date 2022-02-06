@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Card</title>
+</head>
+
+<body>
+    <h1>Shopping Card</h1>
+    <section class="container">
+        <div class="container__shopping">
+            <h3 class="container__shopping--heading">Shopping Card</h3>
+            <div class="container__shopping--items">
+                <div class="container__shopping--items-one">
+                    <img class="container__shopping--items-one-img item-img" src="http://placekitten.com/200/200"
+                        alt=" a _ item">
+                    <p class="container__shopping--items-one-name  item-name ">Name</p>
+                    <p class="container__shopping--items-one-quantity item-quantity">2</p>
+                    <p class="container__shopping--items-one-price item-price">$ 25</p>
+                    <button class="container__shopping--items-one-remove item-remove">X</button>
+                </div>
+                <div class="container__shopping--items-two">
+                    <img class="container__shopping--items-two-img item-img" src="http://placekitten.com/200/200"
+                        alt=" a _ item">
+                    <p class="container__shopping--items-two-name  item-name ">Name</p>
+                    <p class="container__shopping--items-two-quantity item-quantity">1</p>
+                    <p class="container__shopping--items-two-price item-price">$ 30</p>
+                    <button class="container__shopping--items-two-remove item-remove">X</button>
+                </div>
+                <div class="container__shopping--items-three">
+                    <img class="container__shopping--items-three-img item-img" src="http://placekitten.com/200/200"
+                        alt=" a _ item">
+                    <p class="container__shopping--items-three-name  item-name ">Name</p>
+                    <p class="container__shopping--items-three-quantity item-quantity">3</p>
+                    <p class="container__shopping--items-three-price item-price">$ 40</p>
+                    <button class="container__shopping--items-three-remove item-remove">X</button>
+                </div>
+                <div class="container__shopping--items-totalprice">
+                    <p> Total Price = $ 200</p>
+                </div>
+                <div class="container__shopping--payment">
+                    <h4 class="container__shopping--payment-heading">Payment</h4>
+                    <div class="container__shopping--payment-inputs">
+                        <form action="./redirect.html">
+                            <div class="container__shopping--payment-inputs-name">
+                                <label for="name">Name</label>
+                                <input type="text" id="fname" name="fname">
+                            </div>
+                            <div class="container__shopping--payment-inputs-cardn">
+                                <label for="card-number">Card Number</label>
+                                <input type="text" id="cnumber" name="card-number">
+                            </div>
+                            <div class="container__shopping--payment-inputs-checkout">
+                                <input type="submit" value="Check Out">
+                            </div>
+
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+</body>
+
+</html>
