@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/checkout.png" />
+
+    <script src="app.js"></script>
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+    <section class="container">
+        <h3 class="container__heading">Shopping Cart</h3>
+        <div class="container__shopping">
+            <div class="container__shopping--items">
+                <div id="item-one">
+                    <div class="container__shopping--items-one item-content ">
+                        <img class="container__shopping--items-one-img item-img" src="images/headphone.jpg"
+                            alt=" headphone">
+                        <p class="container__shopping--items-one-name  item-name ">headphone</p>
+                        <p class="container__shopping--items-one-quantity item-quantity">2</p>
+                        <p class="container__shopping--items-one-price item-price">$ <span
+                                id="item-one-price">120</span>
+                        </p>
+                        <button id="remove-one" class="container__shopping--items-one-remove item-remove">X</button>
+                    </div>
+                    <hr>
+                </div>
+                <div id="item-two">
+                    <div class="container__shopping--items-two item-content">
+                        <img class="container__shopping--items-two-img item-img" src="images/laptop.jpg" alt="  laptop">
+                        <p class="container__shopping--items-two-name  item-name ">laptop</p>
+                        <p class="container__shopping--items-two-quantity item-quantity">1</p>
+                        <p class="container__shopping--items-two-price item-price">$ <span
+                                id="item-two-price">150</span>
+                        </p>
+                        <button id="remove-two" class="container__shopping--items-two-remove item-remove">X</button>
+
+                    </div>
+                    <hr>
+                </div>
+                <div id="item-three">
+                    <div class="container__shopping--items-three item-content">
+                        <img class="container__shopping--items-three-img item-img" src="images/ps5.jpg" alt=" ps5">
+                        <p class="container__shopping--items-three-name  item-name ">ps5</p>
+                        <p class="container__shopping--items-three-quantity item-quantity">3</p>
+                        <p class="container__shopping--items-three-price item-price">$
+                            <span id="item-three-price">400</span>
+                        </p>
+                        <button id="remove-three" class="container__shopping--items-three-remove item-remove">X</button>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="container__shopping--items-totalprice">
+                    <p id="total-price"></p>
+                </div>
+            </div>
+            <div class="container__shopping--payment">
+                <h4 class="container__shopping--payment-heading">Payment</h4>
+                <form id="form" class="container__shopping--payment-inputs">
+
+                    <div class="container__shopping--payment-inputs-name payment-inputs">
+                        <label for="name">Name</label>
+                        <input onfocus="this.value=''" type="text" id="name" name="name">
+                    </div>
+                    <div class="container__shopping--payment-inputs-cardn payment-inputs">
+                        <label for="card-number">Card Number</label>
+                        <input onfocus="this.value=''" type="password" id="cnumber" name="card-number" required>
+                    </div>
+                    <div class="container__shopping--payment-inputs-checkout payment-inputs">
+                        <input id="check-out" type="submit" value="Check Out">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
