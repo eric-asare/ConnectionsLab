@@ -3,14 +3,14 @@
 
 Whew! I guess this is the last idea I'll come up with. Interested in the rollercoaster? Read on. 
 
-The hardest part of this project was settling on an idea that would interest me and finding data that would be helpful. 
+The hardest part of this project was settling on an idea that interest me and finding data that would be helpful. 
 
-Often all you need to get the next big project done is a well-chosen inspirational quote. Positive quotes are known to help improve mental health. 
+Oftentimes, all you need to get the next big project done is a well-chosen inspirational quote. Positive quotes are known to help improve mental health. 
 
 
 You might want to start your day with an inspirational quote or a quote from some famous author that you admire. . You might be searching for that one quote that always gets you going, relaxed, comforted when you are feeling down. Just as I needed Nelson Mandela to tell me "I never lose, I either win or learn" to continue ideating and finding an API. 
 
-Inspire! is your one-stop place for inspiration You don't have to search all over the web or on group forums for a quote. Come to Inspire!, check out the daily quotes or search your favourite with just a single request. 
+Inspire! is your number one-stop site for inspiration You don't have to search all over the web or on group forums for a quote. Come to Inspire!, check out the daily quotes or search your favourite with just a single request. 
 
 Inspire! is a webpage built to take you to the next level. Yes! wherever you want to be. 
 
@@ -56,7 +56,7 @@ But I thought it would be fun if I displayed trending memes and gave the user th
 
 My main goal behind the meme app was to improve user's mood. Here I found api.quotable.io. which serves the same purpose and had great documentation on github.This API was also free and open source. 
 
-## BIG LESSON
+#### BIG LESSON
 To avoid wasting a lot of hours, 
 Never rush in planning the an application fully with wireframes etc without checking in the browser whether the data source works as you intend it to. 
 
