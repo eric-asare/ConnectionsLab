@@ -78,8 +78,9 @@ I used a warm colour palettes for page background, the daily quote background, a
 I did some styling in the JS, want to move them to the CSS - not sure. 
 
 
-I am thinking of having a beautiful card to hold the quote. 
+I am thinking of having a beautiful card to hold the quote. Add flaticon. 
 A nice search tab, some beautiful buttons for tags( better than what I made for shopping Card), warm colours to stimulate good mood.
+Make the page lively.
 
 
 ### JS
