@@ -1,0 +1,16 @@
+body{
+    background-color: #F76E11;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__quote{
+    background-color: #FFBC80;
+    margin-top: 30%;
+
+}
