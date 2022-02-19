@@ -34,7 +34,7 @@ I will be launching the site in two phases. Initially, I will roll out the quick
 I will be using quotable API as source of data. 
 
 
-SO THE STEPS ARE
+**SO THE STEPS ARE**
 - use mobile-first design
 
 * Create Homepage 
