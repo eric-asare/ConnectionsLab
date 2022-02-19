@@ -17,6 +17,7 @@ Inspire! is a free, mobile-friendly, flexible, fast, and fun webpage that is spe
 
 >  Oftentimes, all you need to get the next big project done is a well-chosen      inspirational quote. 
 > Positive quotes are known to help improve mental health. 
+>
 > -- Eric (CTO, Inspire!)
 
 ---
