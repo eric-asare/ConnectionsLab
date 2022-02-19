@@ -13,9 +13,10 @@ Inspire! is a free, mobile-friendly, flexible, fast, and fun webpage that is spe
 
 **Flexible , Fast and Fun** - This site is for you whether you just want a quick glance at a quote to brighten your day, whether you want to make your own or if you just want to browse quotes from your favorite topics or authors. 
 
->Oftentimes, all you need to get the next big project done is a well-chosen inspirational quote. Positive quotes are known to help improve mental health. 
->
-> &mdash Eric (CTO, Inspire!)
+
+>  Oftentimes, all you need to get the next big project done is a well-chosen      inspirational quote. 
+> Positive quotes are known to help improve mental health. 
+> -- Eric (CTO, Inspire!)
 
 ---
 ### Process
