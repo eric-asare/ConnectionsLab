@@ -6,25 +6,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="App.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@300;600;700&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+        integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="JS/App.js"></script>
+
     <title>Inspire!</title>
 </head>
 
 <body>
-    <h1>Inspire!</h1>
-    <section class="container">
-        <div class="container__search">
-            <input type="text" id="search-input" name="search" placeholder="search">
-            <div id="search-result" class="search-results">
+    <main>
+        <!-- landing page -->
+        <div id="landing">
+            <h1>Inspire!</h1>
+            <h2>Hello There &#128512; </h2>
+            <button>Find an inspiration</button>
+            <button>Make your own</button>
+            <div>
+                <h2>Quick Mood Booster</h2>
+                <div id="quote-container">
 
+                </div>
             </div>
         </div>
-        <div id="quote-container" class="container__quote">
-            <h3>DAILY QUOTE</h3>
-        </div>
+        <section class="make-your-own">
+            <div>
+
+                <div class="capture-image" id="capture">
+                    <h1 id="h1-start">Start Typing</h1>
+                    <img id="current-bg" src="images/background1.jpeg" alt="">
+                </div>
+
+                <div>
+                    <textarea name="user-quote" id="user-quote" cols="30" rows="10"
+                        placeholder="Write something..."></textarea>
+                </div>
 
 
-    </section>
+                <div>
+                    <button id="generate">Generate</button>
+                    <a id="download" download="quote.jpg">
+                        <button id="download-button"> Download </button>
+                    </a>
+                </div>
+
+
+
+
+
+            </div>
+
+            <h3>Choose a background</h3>
+            <div id="bgImg" class="background-image-selector">
+
+                <label for="bg1">
+                    <input type="radio" id="bg1" name="bg" value="bg1" checked>
+                    <img src="http://placekitten.com/200/200" alt="">
+                </label>
+
+
+                <label for="bg2">
+                    <input type="radio" id="bg2" name="bg" value="bg2">
+                    <img src="http://placekitten.com/200/200" alt="">
+                </label>
+
+
+
+
+                <label for="bg3">
+                    <input type="radio" id="bg3" name="bg" value="bg3">
+                    <img src="http://placekitten.com/200/200" alt="">
+                </label>
+
+
+
+                <label for="bg4">
+                    <input type="radio" id="bg4" name="bg" value="bg4">
+                    <img src="http://placekitten.com/200/200" alt="">
+                </label>
+
+
+            </div>
+
+            <div id="render">
+                <h1>Render</h1>
+            </div>
+            <button id="share-img">share</button>
+
+        </section>
+    </main>
+    <footer>
+        <p>Made with ❤️ by <a href="https://github.com/eric-asare">Eric Asare </a> 2022</p>
+    </footer>
+
 </body>
 
 </html>
