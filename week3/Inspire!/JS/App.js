@@ -2,29 +2,27 @@
 window.addEventListener("load", function () {
 
     let backgroundImages = [
-        "images/background1.jpeg",
-        "images/background2.jpeg",
-        "images/background3.jpeg",
-        "images/background4.jpeg"
+        " ",
+        "images/1.jpeg",
+        "images/2.jpeg",
+        "images/3.jpeg",
+        "images/4.jpeg"
     ]
 
     console.log("page is loaded");
 
 
 
-    document.querySelector('input[name = "bg"]:checked').addEventListener('change', () => {
-        let radioButtons = document.querySelectorAll('input[name = "bg"]');
-        console.log(radioButtons);
+
+
+    document.querySelectorAll('input[name = "bg"]').forEach(item => {
+        item.addEventListener('change', (e) => {
+            console.log(e.target);
+            imageID = e.target.value.replace(/^\D+/g, '');
+            document.getElementById("quote__canvas-bg").src = backgroundImages[imageID];
+        })
     })
 
-
-    document.querySelector('radio').addEventListener('change', () => {
-        let checkRadio = document.querySelector('input[name = "bg"]:checked');
-
-        if (checkRadio != null) {
-            console.log(checkRadio.value);
-        }
-    }, false);
 
 
 
@@ -41,7 +39,7 @@ window.addEventListener("load", function () {
 
     document.getElementById("download-button").addEventListener("click",
         function download() {
-            const download = document.getElementById("download");
+            const download = document.getElementById("download-button");
             let image = document.querySelector("canvas").toDataURL("image/png")
                 .replace("image/png", "image/octet-stream");
             download.setAttribute("href", image);
@@ -85,7 +83,7 @@ window.addEventListener("load", function () {
 
 
     document.querySelector("textarea").addEventListener("keyup", (e) => {
-        const quoteText = document.querySelector('#h1-start');
+        const quoteText = document.querySelector('#quote__canvas-content');
         console.log(quoteText);
         console.log(e.target.value);
 
@@ -146,29 +144,39 @@ window.addEventListener("load", function () {
     //     }
     // })
 
+    document.querySelector('.show-info').addEventListener('mouseover',() =>{
+        document.querySelector('#info-message').style.visibility = "visible";
+    })
+
+    document.querySelector('.show-info').addEventListener('mouseout',() =>{
+        document.querySelector('#info-message').style.visibility = "hidden";
+    })
+
+    async function updateQuote() {
+        // Fetch a random quote from the Quotable API
+        const response = await fetch("https://api.quotable.io/random?tags=inspirational|happiness|success&maxLength=100");
+        const data = await response.json();
+        if (response.ok) {
+          // Update DOM elements
+          quotationContainer = document.getElementById("quotation");
+          quotationContainer.innerHTML = "<span> &#8220; </span>" + data.content + "<span> &#8221; </span>";
+
+          authorContainer = document.getElementById("citation");
+          authorContainer.innerHTML = "-" + " " + data.author;
+
+        } else {
+          quote.textContent = "Be patient, something went wrong";
+          console.log(data);
+        }
+      }
 
 
-    fetch("https://api.quotable.io/random/")
-        .then((response) => response.json())
-        .then((data) => {
-            authorName = data.author;
-
-            card = document.getElementById("quote-container");
-            quote = document.createElement('p');
-            quote.innerHTML = data.content;
-
-            quoteAuthor = document.createElement('p');
-            quoteAuthor.innerHTML = "&#x2014;" + authorName + "" + "&#x2014;";
-
-            card.appendChild(quote);
-            card.appendChild(quoteAuthor);
-
-            console.log(data)
-        })
-        .catch(err => {
-            console.error(err);
-        });
-
+    
+      // Attach an event listener to the `button`
+      document.querySelector('.quote-refresh').addEventListener("click", updateQuote);
+    
+      // call updateQuote once when page loads
+      updateQuote();
 
 })
 
