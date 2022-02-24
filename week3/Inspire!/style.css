@@ -206,7 +206,7 @@ quote__actions-share-download {
     display: flex;
     flex-direction: column;
     position: relative;
-    right: 286%;
+    right: 200%;
 }
 
 .background-image-selector img {
