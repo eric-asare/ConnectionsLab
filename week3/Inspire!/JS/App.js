@@ -1,5 +1,4 @@
-
-window.addEventListener("load", function () {
+window.addEventListener("load", function() {
 
     let backgroundImages = [
         " ",
@@ -30,7 +29,7 @@ window.addEventListener("load", function () {
         function generate() {
             document.getElementById("render").innerHTML = "";
 
-            html2canvas(document.querySelector("#capture")).then(function (canvas) {
+            html2canvas(document.querySelector("#capture")).then(function(canvas) {
                 document.getElementById("render").appendChild(canvas);
             });
 
@@ -62,8 +61,7 @@ window.addEventListener("load", function () {
             const filesArray = [
                 new File(
                     [blob],
-                    'quote.jpg',
-                    {
+                    'quote.jpg', {
                         type: blob.type,
                         lastModified: new Date().getTime()
                     }
@@ -90,9 +88,7 @@ window.addEventListener("load", function () {
 
         if (e.target.value != "") {
             quoteText.innerHTML = e.target.value;
-        }
-
-        else {
+        } else {
             quoteText.innerHTML = "Start Typing";
         }
     })
@@ -144,11 +140,11 @@ window.addEventListener("load", function () {
     //     }
     // })
 
-    document.querySelector('.show-info').addEventListener('mouseover',() =>{
+    document.querySelector('.show-info').addEventListener('mouseover', () => {
         document.querySelector('#info-message').style.visibility = "visible";
     })
 
-    document.querySelector('.show-info').addEventListener('mouseout',() =>{
+    document.querySelector('.show-info').addEventListener('mouseout', () => {
         document.querySelector('#info-message').style.visibility = "hidden";
     })
 
@@ -157,27 +153,25 @@ window.addEventListener("load", function () {
         const response = await fetch("https://api.quotable.io/random?tags=inspirational|happiness|success&maxLength=100");
         const data = await response.json();
         if (response.ok) {
-          // Update DOM elements
-          quotationContainer = document.getElementById("quotation");
-          quotationContainer.innerHTML = "<span> &#8220; </span>" + data.content + "<span> &#8221; </span>";
+            // Update DOM elements
+            quotationContainer = document.getElementById("quotation");
+            quotationContainer.innerHTML = "<span> &#8220; </span>" + data.content + "<span> &#8221; </span>";
 
-          authorContainer = document.getElementById("citation");
-          authorContainer.innerHTML = "-" + " " + data.author;
+            authorContainer = document.getElementById("citation");
+            authorContainer.innerHTML = "-" + " " + data.author;
 
         } else {
-          quote.textContent = "Be patient, something went wrong";
-          console.log(data);
+            quote.textContent = "Be patient, something went wrong";
+            console.log(data);
         }
-      }
+    }
 
 
-    
-      // Attach an event listener to the `button`
-      document.querySelector('.quote-refresh').addEventListener("click", updateQuote);
-    
-      // call updateQuote once when page loads
-      updateQuote();
+
+    // Attach an event listener to the `button`
+    document.querySelector('.quote-refresh').addEventListener("click", updateQuote);
+
+    // call updateQuote once when page loads
+    updateQuote();
 
 })
-
-

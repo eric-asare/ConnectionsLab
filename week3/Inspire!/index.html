@@ -8,19 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@300;600;700&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@300;600;700&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
-        integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <script src="JS/App.js"></script>
 
     <title>Inspire!</title>
@@ -31,39 +26,38 @@
         <!-- landing page , check class name-->
         <header>
             <div class="showcase">
-                <div class ="showcase__image"></div>
+                <div class="showcase__image"></div>
                 <div class="showcase__top">
                     <img id="logo" src="images/inspire-logo.png" alt="logo">
-                  
 
-                    <button class = "show-info" >
+
+                    <button class="show-info">
                         <i id="info" class="fa-solid fa-circle-info fa-3x"></i>
-                   </button>
-             
-                    
-<div class="container" id = "info-message">
-    <div class="card">
-      <div class="title">
-    <h1>Hello There 😊 </h1>
-        <p> - Click on the <b>Refresh Icon</b> to see a new quote</p>
-        <p> - Click on <b>Create</b> below to make your own graphic quote</p>
-  </div
-</div>
-</div>
-</div>
-     
+                    </button>
+
+
+                    <div class="container" id="info-message">
+                        <div class="card">
+                            <div class="title">
+                                <h1>Hello There 😊 </h1>
+                                <p> - Click on the <b>Refresh Icon</b> to see a new quote</p>
+                                <p> - Click on <b>Create</b> below to make your own graphic quote</p>
+                            </div </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="showcase__content">
                     <div class="showcase__content-message">
                         <h2>Quick Mood Booster</h2>
                         <blockquote class="slide-right">
-    
-                            <div id = "quote-block">
-                                <p  id="quotation">
-        
+
+                            <div id="quote-block">
+                                <p id="quotation">
+
                                 </p>
                                 <div id="citation">
-                                    
+
                                 </div>
                             </div>
                         </blockquote>
@@ -73,72 +67,73 @@
                     <div class="scroll-down">
                         Create <span> &#9759</span>
                     </div>
-            </a>
+                </a>
 
-                <button class = "quote-refresh" >
+                <button class="quote-refresh">
                     <i class=" fa-3x fa fa-refresh" aria-hidden="true"></i>
-               </button>
-         
-          
-      
+                </button>
+
+
+
         </header>
+
 
         <section class="quote" id="make-your-own-section">
 
             <div class="quote__instruction">
-                <h2 id ="message">Explore Your <br> Inner Creativity</h2>
+                <h2 id="message">Explore Your <br> Inner Creativity</h2>
             </div>
 
-<div class = "image-container">
-    <div class="quote__canvas" id="capture">
-        <h2 id="quote__canvas-content">Start Typing</h2>
-        <img id="quote__canvas-bg" src="images/background1.jpeg" alt="">
-        <div id="bgImg" class="background-image-selector">
-            <div class="background-image-selector__thumbnails">
-    
-                <label for="bg1">
-                    <input type="radio" name="bg" id="bg1" value="bg1">
-                    <img src="images/1.jpeg" alt="">
+            <div class="image-container">
+                <div class="quote__canvas" id="capture">
+                    <h2 id="quote__canvas-content">Start Typing</h2>
+                    <img id="quote__canvas-bg" src="images/background1.jpeg" alt="">
+                    <div id="bgImg" class="background-image-selector">
+                        <div class="background-image-selector__thumbnails">
+
+                            <label for="bg1">
+                                <input type="radio" name="bg" id="bg1" value="bg1">
+                                <img src="images/1.jpeg" alt="">
+                            </label>
+                            <label for="bg2">
+                                <input type="radio" name="bg" id="bg2" value="bg2">
+                                <img src="images/2.jpeg"" alt="">
                 </label>
-                <label for="bg2">
-                    <input type="radio" name="bg" id="bg2" value="bg2">
-                    <img src="images/2.jpeg"" alt="">
-                </label>
-                 <label for = "bg3">
-                    <input type="radio" name="bg" id="bg3" value="bg3">
-                    <img src="images/3.jpeg" alt="">
-                </label>
-                <label for="bg4">
-                    <input type="radio" name="bg" id="bg4" value="bg4">
-                    <img src="images/4.jpeg" alt="">
-                </label>
+                            <label for=" bg3">
+                                <input type="radio" name="bg" id="bg3" value="bg3">
+                                <img src="images/3.jpeg" alt="">
+                            </label>
+                            <label for="bg4">
+                                <input type="radio" name="bg" id="bg4" value="bg4">
+                                <img src="images/4.jpeg" alt="">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
-          </div>
-    </div>
 
-  
-     
-</div>
 
-        
 
             <div class="quote__actions">
-                          
-<textarea id="user-input" cols="30" rows="10" placeholder="Start Typing"></textarea>
-                <a  class ="btn .btn-rounded"  id="generate">Generate</a>
+
+                <textarea id="user-input" cols="30" rows="10" placeholder="Start Typing"></textarea>
+                <a class="btn .btn-rounded" id="generate">Generate</a>
                 <div id="render">
                     <h3>Your Quote Appears Here</h3>
                 </div>
 
-                <div class = "quote__actions-share-download">
-                    <a class ="btn .btn-rounded" id="share-img">share</a>
-                    <a class ="btn .btn-rounded" id="download-button" download="quote.jpg">
-                   Download 
+                <div class="quote__actions-share-download">
+                    <a class="btn .btn-rounded" id="share-img">share</a>
+                    <a class="btn .btn-rounded" id="download-button" download="quote.jpg">
+                        Download
                     </a>
                 </div>
-               
+
             </div>
-          
+
         </section>
     </main>
     <footer>
