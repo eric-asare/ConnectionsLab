@@ -44,3 +44,9 @@ create a quote by clicking on create to inspire yourself or friends
 click on the refresh button to see a new quote
 
 was generating this unneccessary canvas which got deleted. 
+
+
+pallete : https://colorhunt.co/palettes/green-purple-orange
+
+
+https://colorhunt.co/palette/2c272e753188e599349ae66e

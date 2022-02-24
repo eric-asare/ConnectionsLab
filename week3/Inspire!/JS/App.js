@@ -35,6 +35,14 @@ window.addEventListener("load", function() {
 
         })
 
+    document.getElementById("font-color").addEventListener("input", (e) => {
+
+        document.getElementById("quote__canvas-content").style.color = e.target.value;
+
+    });
+
+
+
 
     document.getElementById("download-button").addEventListener("click",
         function download() {
