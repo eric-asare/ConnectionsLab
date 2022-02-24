@@ -42,3 +42,5 @@ https://www.designwizard.com/blog/design-trends/colour-combination
 create a quote by clicking on create to inspire yourself or friends
 
 click on the refresh button to see a new quote
+
+was generating this unneccessary canvas which got deleted. 

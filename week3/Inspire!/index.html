@@ -72,9 +72,6 @@
                 <button class="quote-refresh">
                     <i class=" fa-3x fa fa-refresh" aria-hidden="true"></i>
                 </button>
-
-
-
         </header>
 
 
@@ -88,56 +85,53 @@
                 <div class="quote__canvas" id="capture">
                     <h2 id="quote__canvas-content">Start Typing</h2>
                     <img id="quote__canvas-bg" src="images/background1.jpeg" alt="">
-                    <div id="bgImg" class="background-image-selector">
-                        <div class="background-image-selector__thumbnails">
+                </div>
 
-                            <label for="bg1">
-                                <input type="radio" name="bg" id="bg1" value="bg1">
-                                <img src="images/1.jpeg" alt="">
-                            </label>
-                            <label for="bg2">
-                                <input type="radio" name="bg" id="bg2" value="bg2">
-                                <img src="images/2.jpeg"" alt="">
-                </label>
-                            <label for=" bg3">
-                                <input type="radio" name="bg" id="bg3" value="bg3">
-                                <img src="images/3.jpeg" alt="">
-                            </label>
-                            <label for="bg4">
-                                <input type="radio" name="bg" id="bg4" value="bg4">
-                                <img src="images/4.jpeg" alt="">
-                            </label>
-                        </div>
+                <div id="bgImg" class="background-image-selector">
+                    <div class="background-image-selector__thumbnails">
+
+                        <label for="bg1">
+                            <input type="radio" name="bg" id="bg1" value="bg1">
+                            <img src="images/1.jpeg" alt="">
+                        </label>
+                        <label for="bg2">
+                            <input type="radio" name="bg" id="bg2" value="bg2">
+                            <img src="images/2.jpeg"" alt="">
+                         </label>
+                        <label for="bg3">
+                            <input type="radio" name="bg" id="bg3" value="bg3">
+                            <img src="images/3.jpeg" alt="">
+                        </label>
+                        <label for="bg4">
+                            <input type="radio" name="bg" id="bg4" value="bg4">
+                            <img src="images/4.jpeg" alt="">
+                        </label>
                     </div>
                 </div>
 
-
-
             </div>
-
-
-
             <div class="quote__actions">
 
                 <textarea id="user-input" cols="30" rows="10" placeholder="Start Typing"></textarea>
-                <a class="btn .btn-rounded" id="generate">Generate</a>
-                <div id="render">
-                    <h3>Your Quote Appears Here</h3>
-                </div>
-
-                <div class="quote__actions-share-download">
-                    <a class="btn .btn-rounded" id="share-img">share</a>
-                    <a class="btn .btn-rounded" id="download-button" download="quote.jpg">
-                        Download
-                    </a>
-                </div>
-
+                <a href="#render-preview" class="btn .btn-rounded" id="generate">Create</a>
             </div>
 
         </section>
+
+        <section id="render-preview" class="preview">
+            <div id="render">
+                <h3>Your Quote Appears Here</h3>
+            </div>
+            <div id="share-download" class="quote__actions-share-download">
+                <a class="btn .btn-rounded" id="share-img">share</a>
+                <a class="btn .btn-rounded" id="download-button" download="quote.jpg">
+                    Download
+                </a>
+            </div>
+        </section>
     </main>
     <footer>
-        <p>Made with ❤️ by <a href="https://github.com/eric-asare">Eric Asare </a> 2022</p>
+        <p>Made with ❤️ by <a href="https://github.com/eric-asare"> Eric Asare </a> 2022</p>
     </footer>
 
 </body>

@@ -123,6 +123,7 @@ p {
     background: rgb(105, 110, 255);
     background: linear-gradient(90deg, rgba(105, 110, 255, 1) 0%, rgba(248, 172, 255, 1) 35%);
     font-family: 'Pacifico', cursive;
+    height: 100vh;
 }
 
 
@@ -134,7 +135,6 @@ p {
     color: white;
     width: 100%;
     height: 500px;
-    border: 1px solid white;
     display: flex;
     justify-content: center;
 }
@@ -146,11 +146,21 @@ p {
     transform: translate(-50%, -50%);
 }
 
+#quote__canvas-bg {
+    width: 888px;
+    height: 500px;
+}
+
 .quote__actions {
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#render {
+    display: flex;
+    justify-content: center;
 }
 
 .quote__actions .btn {
@@ -163,6 +173,7 @@ p {
 
 quote__actions-share-download {
     display: flex;
+    justify-content: center;
 }
 
 .quote__instruction {
@@ -191,7 +202,8 @@ quote__actions-share-download {
 .background-image-selector__thumbnails {
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
+    position: relative;
+    right: 150%;
 }
 
 .background-image-selector img {
@@ -345,4 +357,22 @@ label img {
     border: 0;
     color: brown;
     background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+
+#render-preview {
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(105, 110, 255, 1) 0%, rgba(248, 172, 255, 1) 35%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#share-download {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
