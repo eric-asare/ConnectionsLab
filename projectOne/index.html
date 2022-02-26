@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@300;600;700&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@300;600&family=Playfair+Display:ital,wght@0,500;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+
+    <!-- HTML2CANVAS LIBRARY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- FONT-AWESOME ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- JS SCRIPT FILE -->
+    <script src="App.js"></script>
+
+    <title>Inspire! - Be Inspired To Inspire</title>
+
+</head>
+
+<body>
+    <main>
+        <!-- LANDING PAGE -->
+        <header>
+            <div class="landing">
+
+                <div class="landing__background">
+
+                </div>
+
+                <!-- LANDING PAGE TOP SECTION  -->
+                <div class="landing__top">
+
+                    <!-- Logo -->
+                    <img id="logo" src="images/inspire-logo.png" alt="logo">
+
+                    <!-- Info Button -->
+                    <button class="landing__top--show-info">
+                        <i id="info" class="fa-solid fa-circle-info fa-3x"></i>
+                    </button>
+
+                    <!-- Info Button Message Upon Hover -->
+                    <div id="info-message">
+                        <div class="landing__top--info-message-card">
+                            <div>
+                                <h2>Hello There 😊 </h2>
+                                <p> - Click on the <b>Refresh Icon</b> to see a new Quote</p>
+                                <p> - Click on <b>Create</b> below to make your own graphic Quote</p>
+                                <p> - OR Simply Scroll Up or Down</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LANDING PAGE MIDDLE  SECTION  -->
+                <div class="landing__content">
+
+                    <div class="landing__content-message">
+
+                        <h2>Quick Mood Booster</h2>
+
+                        <blockquote class="landing__content-message--slide-right">
+                            <!-- Placeholders for Quote and Author from API -->
+                            <div>
+                                <p id="quotation">
+
+                                </p>
+                                <div id="citation">
+
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <!-- LANDING PAGE BOTTOM SECTION  -->
+
+                <!-- Jump to Design Section Button-->
+                <a href="#make-your-own-section">
+                    <div class="landing__scroll-down">
+                        Create <span> &#9759</span>
+                    </div>
+                </a>
+
+                <!-- Refresh for new Quotes button-->
+                <button class="landing__content-message--refresh">
+                    <i class=" fa-3x fa fa-refresh" aria-hidden="true"></i>
+                </button>
+
+        </header>
+
+        <!-- DESIGN PAGE -->
+        <section class="design" id="make-your-own-section">
+
+            <!-- DESIGN PAGE TOP SECTION -->
+            <div class="design__instruction">
+                <h2 id="message">Explore Your <br> Inner Creativity</h2>
+            </div>
+
+
+            <!-- DESIGN IMAGE SELECTION AND PREVIEW -->
+            <div class="design__image-container">
+
+                <!-- Image Selected Preview-->
+                <div class="design__canvas" id="capture">
+                    <h2 id="design__canvas-content">Start Typing</h2>
+                    <img id="design__canvas-bg" src="images/background1.jpeg" alt="">
+                </div>
+
+                <!-- Images To Be Selected From Panel-->
+                <div id="bgImg" class="design__background-image-selector">
+                    <div class="design__background-image-selector--thumbnails">
+
+                        <label for="bg1">
+                            <input type="radio" name="bg" id="bg1" value="bg1">
+                            <img src="images/1.jpeg" alt="">
+                        </label>
+                        <label for="bg2">
+                            <input type="radio" name="bg" id="bg2" value="bg2">
+                            <img src="images/2.jpeg"" alt="">
+                         </label>
+                        <label for="bg3">
+                            <input type="radio" name="bg" id="bg3" value="bg3">
+                            <img src="images/3.jpeg" alt="">
+                        </label>
+                        <label for="bg4">
+                            <input type="radio" name="bg" id="bg4" value="bg4">
+                            <img src="images/4.jpeg" alt="">
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- DESIGN USER OPTIONS-->
+            <div class="design__actions">
+                <div id="user-choice">
+                    <!-- Text Editor-->
+                    <textarea id="user-input" cols="30" rows="10" placeholder="Start Typing"></textarea>
+
+                    <!-- Color Selector-->
+                    <input type="color" id="font-color" name="font-color" value="#ff0000">
+                    <label for="font-color"><i class="fa-solid fa-droplet"></i></label>
+                </div>
+
+                <!-- Create Button-->
+                <a href="#render-preview" class="btn" id="generate">Create</a>
+            </div>
+
+        </section>
+
+
+        <!-- DESIGN PREVIEW SECTION-->
+        <section class="preview" id="render-preview">
+
+            <!-- placeholder for generated design-->
+            <div id="render">
+                <h3>Your design Appears Here</h3>
+            </div>
+
+            <!-- Share and  Download Buttons-->
+            <div class="design__actions-share-download" id="share-download">
+                <a class="btn" id="share-img">Share</a>
+                <a class="btn" id="download-button" download="design.jpg">
+                    Download
+                </a>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- FOOTER SECTION-->
+    <footer>
+        <p>Made with ❤️ by <a href="https://github.com/eric-asare"> Eric Asare </a> 2022</p>
+    </footer>
+
+</body>
+
+</html>

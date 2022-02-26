@@ -147,7 +147,7 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
    * ### Technical Decisions
        * #### Layout - HTML
            * Using `main` and `footer` tag to make locating the main content easier for accessibility purposes
-           * Divided the main page into three sections : showcase (landing page), the quote (create your own) and the preview sections
+           * Divided the main page into three sections : landing page, the design (create your own) and the preview sections
 
 
        * #### Styling - CSS
@@ -159,6 +159,8 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
             * Alert user to create a graphic quote before pressing the share button. 
 
             * Tell User browser is not supported if share is clicked for unsupported browser
+
+            * Tell User to design a graphic quote first before pressing download
 
 ## Challenges & Solutions
    * #### Data & APIs & Libraries
@@ -229,6 +231,9 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 
   - In CSS 
     The “+” sign selector is used to select the elements that are placed immediately after the specified element but not inside the particular elements.
+
+ - In JS, 
+    You can use try and except to handle errors. 
 
 
   * #### General
