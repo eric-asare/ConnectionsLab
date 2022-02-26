@@ -231,7 +231,7 @@ The working link to final webpage [WebPage-Final](https://eric-asare.github.io/C
 * Use an image API to generate images so that users can just choose next to get a new one. 
 * create custom share buttons for users with incompatible browsers
 
-*Expand to add articles and news /books feature to inform user of goog resources
+*Expand to add articles and news /books feature to inform user of good inspirational resources
 
 
 ### RESOURCES
