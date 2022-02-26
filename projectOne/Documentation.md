@@ -163,14 +163,13 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 ## Challenges & Solutions
    * #### Data & APIs & Libraries
      * Getting Quotes that were not neccessarily inspirational 
-      - Specified the API REQUEST by calling for not just a random quote but quotes with tags of inspirational success or happiness. 
+         - Specified the API REQUEST by calling for not just a random quote but quotes with tags of inspirational success or happiness. 
     
      * Really Long Quotes disrupting design 
-      - Limited the API to request 10 to 30 word which is easy to read and not overwhelming the user
-    
+         - Limited the API to request 10 to 30 word which is easy to read and not overwhelming the user
     
      * Using html2canvas.js
-      - Coudn't load html2canvas.js when I downloaded the library onto my pc but could load it when I used the cdjns on https://cdnjs.com/ to import it. 
+         - Coudn't load html2canvas.js when I downloaded the library onto my pc but could load it when I used the cdjns on https://cdnjs.com/ to import it. 
 
    * #### Layout - HTML
       * Showcase ( Landing Page)
