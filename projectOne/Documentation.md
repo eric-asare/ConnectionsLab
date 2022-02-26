@@ -73,10 +73,6 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 
       * Create Footer
          
-
-      * Make Mobile Friendly
-
-
    * ### Design Decisions
 
        * #### User Interface & Interaction
