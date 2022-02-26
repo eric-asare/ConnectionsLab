@@ -29,7 +29,7 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
    * ### The Plan
    I will be launching the site in two phases. Initially, I will roll out the quick-mood-boosters and make-your-own features, then later I will implement the find-your-inspiration feature.
 
-    **THE STEPS WILL BE**
+    * ### The Steps 
     * Create Landing Page 
       * Transform Wireframe to webpage - HTML
       * Style Homepage - CSS
