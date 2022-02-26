@@ -127,6 +127,10 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 
 
              <table>
+              <tr>
+             <th> Overflow Problem </th>
+             <th> Overflow Solved </th>
+             </tr>
              <tr>
              <td>
 
@@ -147,12 +151,41 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
    * ### Technical Decisions
        * #### Data & APIs & Libraries
        * #### Layout - HTML
+           * Using `main` and `footer` tag to make locating the main content easier for accessibility purposes
+           * Divided the main page into three sections : showcase (landing page), the quote (create your own) and the preview sections
+
+
        * #### Styling - CSS
+            * Used font-awesome icons to make styling easier
+            * Used google fonts
+            * 
+
        * #### Interaction - JS
+            * Alert user to create a graphic quote before pressing the share button. 
+
+            * Tell User browser is not supported if share is clicked for unsupported browser
 
 ## Challenges & Solutions
    * #### Data & APIs & Libraries
    * #### Layout - HTML
+      * Showcase ( Landing Page)
+        - The content on the landing page were overflowing so I made `div` with viewheight (`vh`) of 100%. This prevented showcase page from overflowing into the quote (creativity) section 
+    
+    <table>
+    <tr>
+    <td>
+
+    ![Overflow Problem](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/showcaseOverflow.png)
+
+    </td>
+    <td>
+
+    ![Overflow Solved](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/overflowSolved.png)
+
+    </td>
+    </tr>
+    </table>
+
    * #### Styling - CSS
    * #### Interaction - JS
 
