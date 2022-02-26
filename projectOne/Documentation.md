@@ -191,13 +191,85 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
      </table>
 
    * #### Styling - CSS
+
+    * Image Selection Panel 
+        * Making the user select only one of the images at a time
+            - One challenge I run into was making all the four radio buttons act as one. selecting one will deselect the other. I learnt a good trick to give all the radio buttons the same name so that selecting one will deselect the others. 
+        * Making the radio buttons appear as images and not ugly radio buttons
+
    * #### Interaction - JS
 
-## Lessons & Next Steps
+   * Getting Quotes that were not neccessarily inspirational 
+     - Specified the API REQUEST by calling for not just a random quote but quotes with tags of inspirational success or happiness. 
+
+    * Really Long Quotes disrupting design 
+     - Limited the API to request 10 to 30 word which is easy to read and not overwhelming the user
+
+   * Real Time Image Selection Preview
+        - Checking for which background the user selected and applying it dynamically to the current background. I tried a lot of approaches which wasn't working. 
+
+            I took a step back and try to think through what I want to do in simple steps
+
+            1. looked for the default (checked) button
+            2. listen for any change 
+            3. look through all the buttons and check which is selected
+            4. Change the background using the name of the checked button
+
+            The above wasn't working , it seems I can only change the radio button when I have another button to use as event listener. 
+
+         -  what worked was listening to each radio button ( images to be selected) and if one of the radio buttons changes it state, I use the name of the changed radio button to set the background of the canvas.
+            
+
+   *  Using html2canvas.js
+     - Coudn't load html2canvas.js when I downloaded the library onto my pc but could load it when I used the cdjns on https://cdnjs.com/ to import it. 
+
+   * Multiple creation of the canvas file when create button is clicked. 
+      - To prevent this I reset the inner HTML , everytime create button is click;
+
+   * Sharing
+    - The Web Share API will show the user all the sharing apps on their device for the user to select one 
+    - The sharing API was not working on Chrome but after researching I found out Android and iOS are the major platforms supported, Safari working. So tested the sharing option on Safari. 
+
+
+## Lessons
   * #### Technical & Design
+  - adding `for` attribute in the `label` made it possible to select a radio button by just clicking on the label which in my case is the image. 
+
+  - In CSS 
+    The “+” sign selector is used to select the elements that are placed immediately after the specified element but not inside the particular elements.
+
+
   * #### General
+  - Never understimate the power of googling. Seen an error, have an issue, type into the google search bar and you would be surprised someone also had a similar problem sometime ago. 
+
+##  Next Steps
+  * Create a robust layout using only `flex` making it mobile friendly
+  * Use an image API to generate images so that users can just choose next to get a new one. 
+  * Create custom share buttons for users with incompatible browsers
+  * Expand to add articles and news /books feature to inform user of good inspirational resources
+  * Implement the find-your-inspiration feature.
+
 
 ## Refrences & Resources
+* Noteworthy material utilized in service of the research, production and delivery of the project
+
+* quotable API : https://github.com/lukePeavey/quotable 
+* Pallete :  https://colorhunt.co/palettes/green-purple-orange, https://colorhunt.co/palette/2c272e753188e599349ae66e
+
+*[Use images instead of radio buttons] (https://gist.github.com/rcotrina94/7828886) 
+
+* htmltoCanvas Library
+
+* regex (https://stackoverflow.com/questions/10003683/how-can-i-extract-a-number-from-a-string-in-javascript)
+
+
+* background image staying as it is(https://www.youtube.com/watch?v=hVdTQWASliE)
+
+* web share API ( https://benkaiser.dev/sharing-images-using-the-web-share-api/)
+
+* used contrasting color from (https://app.contrast-finder.org/?lang=en)
 
 ## Website, Code & Demo
+The working link to final webpage [WebPage-Final](https://eric-asare.github.io/ConnectionsLab/projectOne/index.html)
+
 
