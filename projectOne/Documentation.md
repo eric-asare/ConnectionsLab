@@ -28,9 +28,10 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 ## Production
    * ### The Plan
    I will be launching the site in two phases. Initially, I will roll out the quick-mood-boosters and make-your-own features, then later I will implement the find-your-inspiration feature.
-
-    * ### The Steps 
-    * Create Landing Page 
+   
+   
+   * ### The Steps 
+      * Create Landing Page 
       * Transform Wireframe to webpage - HTML
       * Style Homepage - CSS
       * Quick-Mood-Booster Feature - JS (API and Data)
