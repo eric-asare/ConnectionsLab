@@ -47,7 +47,7 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
     * Make Mobile Friendly
        * #### WireFrames
 
-       <table>
+<table>
 <tr>
 <th> Good </th>
 <th> Bad </th>
