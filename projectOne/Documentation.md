@@ -2,6 +2,9 @@
 
 ![Landing Page](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/landingPage2.png)
 
+## Website
+The working link to final webpage [WebPage-Final](https://eric-asare.github.io/ConnectionsLab/projectOne/index.html)
+
 ## Description
 
 Inspire! is your one-stop shop for inspirational quotes. Don't waste your time searching the web or chat groups for a quote. Visit Inspire!, check the daily mood booster, find a specific quote or create your own to save or share with friends. 
@@ -266,7 +269,5 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 
 * used contrasting color from (https://app.contrast-finder.org/?lang=en)
 
-## Website, Code & Demo
-The working link to final webpage [WebPage-Final](https://eric-asare.github.io/ConnectionsLab/projectOne/index.html)
 
 
