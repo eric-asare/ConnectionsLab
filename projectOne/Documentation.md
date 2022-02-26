@@ -30,6 +30,8 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
    I will be launching the site in two phases. Initially, I will roll out the quick-mood-boosters and make-your-own features, then later I will implement the find-your-inspiration feature.
 
    * ### The WireFrames
+         I went through multiple design phases and sketches of the webpage :  Initial Design, Updated Design with User Journey, Layout Sketches.
+         
         <table>
         <tr>
         <th> Initial Design </th>
@@ -49,10 +51,10 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
         </tr>
         </table>
 
+        **Layout Sketches**
+        ![Layout Sketch](https://eric-asare.github.io/ConnectionsLab/projectOne/design/layoutSketches.png)
 
-        ![Layout Sketch](https://eric-asare.github.io/ConnectionsLab/projectOne/design/userJourney.png)
-
-   I went through multiple design phases and sketches of the webpage :  Initial Design, Updated Design with User Journey, Layout Sketches.
+  
    * ### The Steps 
       * Create Landing Page 
          * Transform Wireframe to webpage - HTML
