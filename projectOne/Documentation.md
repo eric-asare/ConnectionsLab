@@ -167,6 +167,16 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 
 ## Challenges & Solutions
    * #### Data & APIs & Libraries
+    * Getting Quotes that were not neccessarily inspirational 
+      - Specified the API REQUEST by calling for not just a random quote but quotes with tags of inspirational success or happiness. 
+    
+    * Really Long Quotes disrupting design 
+      - Limited the API to request 10 to 30 word which is easy to read and not overwhelming the user
+    
+    
+    * Using html2canvas.js
+      - Coudn't load html2canvas.js when I downloaded the library onto my pc but could load it when I used the cdjns on https://cdnjs.com/ to import it. 
+
    * #### Layout - HTML
       * Showcase ( Landing Page)
         - The content on the landing page were overflowing so I made `div` with viewheight (`vh`) of 100%. This prevented showcase page from overflowing into the quote (creativity) section 
@@ -191,20 +201,12 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
      </table>
 
    * #### Styling - CSS
-
-    * Image Selection Panel 
-        * Making the user select only one of the images at a time
-            - One challenge I run into was making all the four radio buttons act as one. selecting one will deselect the other. I learnt a good trick to give all the radio buttons the same name so that selecting one will deselect the others. 
-        * Making the radio buttons appear as images and not ugly radio buttons
+        * Image Selection Panel 
+            * Making the user select only one of the images at a time
+              - One challenge I run into was making all the four radio buttons act as one. selecting one will deselect the other. I learnt a good trick to give all the radio buttons the same name so that selecting one will deselect the others. 
+             * Making the radio buttons appear as images and not ugly radio buttons
 
    * #### Interaction - JS
-
-   * Getting Quotes that were not neccessarily inspirational 
-     - Specified the API REQUEST by calling for not just a random quote but quotes with tags of inspirational success or happiness. 
-
-    * Really Long Quotes disrupting design 
-     - Limited the API to request 10 to 30 word which is easy to read and not overwhelming the user
-
    * Real Time Image Selection Preview
         - Checking for which background the user selected and applying it dynamically to the current background. I tried a lot of approaches which wasn't working. 
 
@@ -217,18 +219,14 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 
             The above wasn't working , it seems I can only change the radio button when I have another button to use as event listener. 
 
-         -  what worked was listening to each radio button ( images to be selected) and if one of the radio buttons changes it state, I use the name of the changed radio button to set the background of the canvas.
-            
-
-   *  Using html2canvas.js
-     - Coudn't load html2canvas.js when I downloaded the library onto my pc but could load it when I used the cdjns on https://cdnjs.com/ to import it. 
-
+            - what worked was listening to each radio button ( images to be selected) and if one of the radio buttons changes it state, I use the name of the changed radio button to set the background of the canvas.
+        
    * Multiple creation of the canvas file when create button is clicked. 
       - To prevent this I reset the inner HTML , everytime create button is click;
 
    * Sharing
-    - The Web Share API will show the user all the sharing apps on their device for the user to select one 
-    - The sharing API was not working on Chrome but after researching I found out Android and iOS are the major platforms supported, Safari working. So tested the sharing option on Safari. 
+      - The Web Share API will show the user all the sharing apps on their device for the user to select one 
+      - The sharing API was not working on Chrome but after researching I found out Android and iOS are the major platforms supported, Safari working. So tested the sharing option on Safari. 
 
 
 ## Lessons
@@ -256,7 +254,7 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 * quotable API : https://github.com/lukePeavey/quotable 
 * Pallete :  https://colorhunt.co/palettes/green-purple-orange, https://colorhunt.co/palette/2c272e753188e599349ae66e
 
-*[Use images instead of radio buttons] (https://gist.github.com/rcotrina94/7828886) 
+* [Use images instead of radio buttons] (https://gist.github.com/rcotrina94/7828886) 
 
 * htmltoCanvas Library
 
