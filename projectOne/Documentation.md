@@ -9,12 +9,12 @@
 
        * #### WireFrames
 
-    * ### DESIGN DECISIONS
+   * ### DESIGN DECISIONS
 
        * #### User Interface
        * #### User Interaction
 
-    * ### TECHNICAL DECISIONS
+   * ### TECHNICAL DECISIONS
        * #### Data & APIs & Libraries
        * #### Layout - HTML
        * #### Styling - CSS
