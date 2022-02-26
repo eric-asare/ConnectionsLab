@@ -2,7 +2,7 @@
 
 ![Landing Page](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/landingPage2.png)
 
-## DESCRIPTION
+## Description
 
 Inspire! is your one-stop shop for inspirational quotes. Don't waste your time searching the web or chat groups for a quote. Visit Inspire!, check the daily mood booster, find a specific quote or create your own to save or share with friends. 
 
@@ -14,7 +14,7 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 
 *Inspire* -  Be inspired to inspire! Read free inspirational quotes and have fun creating your  to save and share. 
 
-## INSPIRATION , CONCEPT & CONTEXT
+## Inspiration , Concept & Context
 
 ---
 
@@ -25,11 +25,11 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 
 ---
 
-## PRODUCTION
-   * ### THE PLAN
+## Production
+   * ### The Plan
    I will be launching the site in two phases. Initially, I will roll out the quick-mood-boosters and make-your-own features, then later I will implement the find-your-inspiration feature.
 
-    **SO THE STEPS ARE**
+    **THE STEPS WILL BE**
     * Create Landing Page 
       * Transform Wireframe to webpage - HTML
       * Style Homepage - CSS
@@ -46,7 +46,7 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 
     * Make Mobile Friendly
        * #### WireFrames
-       
+
        <table>
 <tr>
 <th> Good </th>
@@ -76,28 +76,28 @@ int foo() {
 </tr>
 </table>
 
-   * ### DESIGN DECISIONS
+   * ### Design Decisions
 
        * #### User Interface
        * #### User Interaction
 
-   * ### TECHNICAL DECISIONS
+   * ### Technical Decisions
        * #### Data & APIs & Libraries
        * #### Layout - HTML
        * #### Styling - CSS
        * #### Interaction - JS
 
-## CHALLENGES & SOLUTIONS
+## Challenges & Solutions
    * #### Data & APIs & Libraries
    * #### Layout - HTML
    * #### Styling - CSS
    * #### Interaction - JS
 
-## LESSONS & NEXT STEPS
+## Lessons & Next Steps
   * #### Technical & Design
   * #### General
 
-## REFRENCES & RESOURCES
+## Refrences & Resources
 
-## WEBSITE, CODE & DEMO
+## Website, Code & Demo
 
