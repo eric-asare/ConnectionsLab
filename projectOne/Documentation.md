@@ -28,25 +28,31 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 ## Production
    * ### The Plan
    I will be launching the site in two phases. Initially, I will roll out the quick-mood-boosters and make-your-own features, then later I will implement the find-your-inspiration feature.
+
+   * ### WireFrames
    
    
    * ### The Steps 
       * Create Landing Page 
-      * Transform Wireframe to webpage - HTML
-      * Style Homepage - CSS
-      * Quick-Mood-Booster Feature - JS (API and Data)
+         * Transform Wireframe to webpage - HTML
+         * Style Homepage - CSS
+         * Quick-Mood-Booster Feature - JS (API and Data)
+         * Create & Info Buttons - JS
 
-    * Implement make-your-own feature
-       * Transform Wireframe to webpage - HTML
-       * Style page - CSS
-       * Taking user's quote and name - JS
-       * Choosing background - JS
-       * Transforming quote and selected background into graphic quote - JS
-       * Share button - JS
-       * Save button - JS
+      * Implement make-your-own feature
+         * Transform Wireframe to webpage - HTML
+         * Style page - CSS
+         * Taking user's quote & font color- JS
+         * Choosing background - JS
+         * Create button to transform quote and selected background into graphic quote - JS
+         * Share & Save button - JS
 
-    * Make Mobile Friendly
-       * #### WireFrames
+
+      * Create Footer
+         
+
+      * Make Mobile Friendly
+      
 
 <table>
 <tr>
