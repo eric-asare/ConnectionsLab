@@ -128,9 +128,9 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 
              <table>
               <tr>
-             <th> Overflow Problem </th>
-             <th> Overflow Solved </th>
-             </tr>
+             <th> Initial Design </th>
+             <th> Updated Design with User Journey </th>
+            </tr>
              <tr>
              <td>
 
@@ -171,20 +171,24 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
       * Showcase ( Landing Page)
         - The content on the landing page were overflowing so I made `div` with viewheight (`vh`) of 100%. This prevented showcase page from overflowing into the quote (creativity) section 
     
-    <table>
-    <tr>
-    <td>
+     <table>
+     <tr>
+     <th> Overflow Problem </th>
+     <th> Overflow Solved</th>
+     </tr>
+     <tr>
+     <td>
 
-    ![Overflow Problem](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/showcaseOverflow.png)
+     ![Overflow Problem](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/showcaseOverflow.png)
 
-    </td>
-    <td>
+     </td>
+     <td>
 
-    ![Overflow Solved](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/overflowSolved.png)
+     ![Overflow Solved](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/overflowSolved.png)
 
-    </td>
-    </tr>
-    </table>
+     </td>
+     </tr>
+     </table>
 
    * #### Styling - CSS
    * #### Interaction - JS
