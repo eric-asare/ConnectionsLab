@@ -1,5 +1,7 @@
 #  Inspire! Project Documentation 
 
+![Landing Page](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/landingPage2.png)
+
 ## DESCRIPTION
 
 Inspire! is your one-stop shop for inspirational quotes. Don't waste your time searching the web or chat groups for a quote. Visit Inspire!, check the daily mood booster, find a specific quote or create your own to save or share with friends. 
