@@ -31,7 +31,7 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 
    * ### The WireFrames
          I went through multiple design phases and sketches of the webpage :  Initial Design, Updated Design with User Journey, Layout Sketches.
-         
+
         <table>
         <tr>
         <th> Initial Design </th>
@@ -79,8 +79,44 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 
    * ### Design Decisions
 
-       * #### User Interface
-       * #### User Interaction
+       * #### User Interface & Interaction
+          * For the landing page: 
+             I wanted it to hold enough information with less distracting features to appeal to the user who didn't have much time at hand but just wanted to glance at a quote or browse through different inspirational quotes. 
+
+            ![Landing Page](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/landingPage2.png)
+
+             Thus the `quick mood booster` (main component to inspire the user) is positioned in the middle of the landing page, The `refresh` and the `info` icons positioned on the top right and bottom right. These positions seems inituitive as to where a user will look for these features upon landing on the page. The `refresh` as it means intituively will change the quote in the middle upon click. The `info` will show the user information about how to interact with the page upon hover. 
+
+             ![Info Shot](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/infoShot2.png)
+
+             The `create` was intentional placed on the bottom left to match the position of the logo and more importantly not to distract the user from the quick mood booster in the middle. The `hand pointing down` seems subtle but was added to indicate to the user that the page will go down if pressed. 
+
+            The `logo` was designed specially to match the colors on the landing page and name of the project
+            ![Logo](https://eric-asare.github.io/ConnectionsLab/projectOne/design/inspire-logo.png)
+
+             - Chose 2 main colours for the best contrast ( black for background and green for the quote) and 2 other colours (white to contrast green and purple for additional info)
+
+            
+          * For make-your-own (create quote) feature:
+            I wanted the user to feel that they have a lot of room and options to explore and be creative. 
+
+
+            The `header `for this section says it all: explore your inner creativity. 
+
+            Thus the reason for creating the `image selection and preview panel`, the `text editor`,the `color picker` for font color.
+
+            A `create button` to see their final button and an option to share and save it. 
+
+            All these goes to make the page flexible and fun. 
+
+            I divided the user experience for this section into the creation and aftermath. 
+
+            For the creation experience, the user will see and interact with the image selection and preview panel, the text area, and the color picker. 
+
+            The aftermath of the creation, the user will be taken to a page where the user will see and interact with the `share and save buttons`. 
+
+
+        * It is worth noting that the whole site is a `one page site, scrollable but have buttons to help user jump between sections` make the webpage more flexible and fun to interact with. 
 
    * ### Technical Decisions
        * #### Data & APIs & Libraries
