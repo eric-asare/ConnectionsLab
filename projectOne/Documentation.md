@@ -149,7 +149,6 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
         * It is worth noting that the whole site is a `one page site, scrollable but have buttons to help user jump between sections` make the webpage more flexible and fun to interact with. 
 
    * ### Technical Decisions
-       * #### Data & APIs & Libraries
        * #### Layout - HTML
            * Using `main` and `footer` tag to make locating the main content easier for accessibility purposes
            * Divided the main page into three sections : showcase (landing page), the quote (create your own) and the preview sections
@@ -167,14 +166,14 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 
 ## Challenges & Solutions
    * #### Data & APIs & Libraries
-    * Getting Quotes that were not neccessarily inspirational 
+     * Getting Quotes that were not neccessarily inspirational 
       - Specified the API REQUEST by calling for not just a random quote but quotes with tags of inspirational success or happiness. 
     
-    * Really Long Quotes disrupting design 
+     * Really Long Quotes disrupting design 
       - Limited the API to request 10 to 30 word which is easy to read and not overwhelming the user
     
     
-    * Using html2canvas.js
+     * Using html2canvas.js
       - Coudn't load html2canvas.js when I downloaded the library onto my pc but could load it when I used the cdjns on https://cdnjs.com/ to import it. 
 
    * #### Layout - HTML
