@@ -121,8 +121,8 @@ p {
 /* image selector */
 
 .quote {
-    background: rgb(105, 110, 255);
-    background: linear-gradient(90deg, rgba(105, 110, 255, 1) 0%, rgba(248, 172, 255, 1) 35%);
+    /* background: rgb(105, 110, 255);
+    background: linear-gradient(90deg, rgba(105, 110, 255, 1) 0%, rgba(248, 172, 255, 1) 35%); */
     font-family: 'Pacifico', cursive;
     height: 100vh;
 }
@@ -180,7 +180,7 @@ quote__actions-share-download {
 
 .quote__instruction {
     text-align: center;
-    color: #2C272E;
+    color: #9ae66e;
 }
 
 .background-image-selector [type=radio] {
@@ -354,12 +354,10 @@ label img {
     border-radius: 3px;
     border: 0;
     color: brown;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
 }
 
 #render-preview {
     height: 100vh;
-    background: linear-gradient(90deg, rgba(105, 110, 255, 1) 0%, rgba(248, 172, 255, 1) 35%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
