@@ -29,9 +29,30 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
    * ### The Plan
    I will be launching the site in two phases. Initially, I will roll out the quick-mood-boosters and make-your-own features, then later I will implement the find-your-inspiration feature.
 
-   * ### WireFrames
-   
-   
+   * ### The WireFrames
+        <table>
+        <tr>
+        <th> Initial Design </th>
+        <th> Updated Design with User Journey </th>
+        </tr>
+        <tr>
+        <td>
+
+       ![Initial Design](https://eric-asare.github.io/ConnectionsLab/projectOne/design/inspire!.png)
+
+        </td>
+        <td>
+
+        ![Updated Design with User Journey](https://eric-asare.github.io/ConnectionsLab/projectOne/design/userJourney.png)
+
+        </td>
+        </tr>
+        </table>
+
+
+        ![Layout Sketch](https://eric-asare.github.io/ConnectionsLab/projectOne/design/userJourney.png)
+
+   I went through multiple design phases and sketches of the webpage :  Initial Design, Updated Design with User Journey, Layout Sketches.
    * ### The Steps 
       * Create Landing Page 
          * Transform Wireframe to webpage - HTML
@@ -52,36 +73,7 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
          
 
       * Make Mobile Friendly
-      
 
-<table>
-<tr>
-<th> Good </th>
-<th> Bad </th>
-</tr>
-<tr>
-<td>
-
-```c++
-int foo() {
-    int result = 4;
-    return result;
-}
-```
-
-</td>
-<td>
-
-```c++
-int foo() { 
-    int x = 4;
-    return x;
-}
-```
-
-</td>
-</tr>
-</table>
 
    * ### Design Decisions
 
