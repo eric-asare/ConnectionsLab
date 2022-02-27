@@ -226,6 +226,35 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
    * Sharing
       - The Web Share API will show the user all the sharing apps on their device for the user to select one 
       - The sharing API was not working on Chrome but after researching I found out Android and iOS are the major platforms supported, Safari working. So tested the sharing option on Safari. 
+  
+   * Canvas Preview Upon clicking Create not showing as expected (works on local machine but not after uploading on github)
+      - It seems I have to add padding on the html for the image to show and that distorts the overall layout - got pretty stressed about this and stopped working on it. Leading it for future iterations
+
+     <table>
+     <tr>
+     <th> 10px Padding </th>
+     <th> More padding </th>
+     </tr>
+     <tr>
+     <td>
+
+      ![Share Page](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/previewWrong2.png)
+
+      </td>
+      <td>
+
+     ![Download shot](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/previewWrong1.png)
+
+     </td>
+     </tr>
+     </table>
+
+        ```html
+        <div class="design__canvas" id="capture" style="padding:20px">
+                    <h2 id="design__canvas-content">Start Typing</h2>
+                    <img id="design__canvas-bg" src="images/background1.jpeg" alt="man with stretched arms in a sunset">
+         </div>
+       ```
 
 
 ## Lessons
@@ -243,7 +272,7 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
   - Never understimate the power of googling. Seen an error, have an issue, type into the google search bar and you would be surprised someone also had a similar problem sometime ago. 
 
 ##  Next Steps
-  * Create a robust layout using only `flex` making it mobile friendly
+  * Create a robust layout using only `flex` making it mobile friendly and make canvas preview work
   * Use an image API to generate images so that users can just choose next to get a new one. 
   * Create custom share buttons for users with incompatible browsers
   * Expand to add articles and news /books feature to inform user of good inspirational resources
@@ -254,20 +283,21 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 * Noteworthy material utilized in service of the research, production and delivery of the project
 
 * quotable API : https://github.com/lukePeavey/quotable 
+
 * Pallete :  https://colorhunt.co/palettes/green-purple-orange, https://colorhunt.co/palette/2c272e753188e599349ae66e
 
-* [Use images instead of radio buttons] (https://gist.github.com/rcotrina94/7828886) 
+* Use images instead of radio buttons (https://gist.github.com/rcotrina94/7828886) 
 
-* htmltoCanvas Library
+* htmltoCanvas Library (https://html2canvas.hertzen.com/configuration)
 
-* regex (https://stackoverflow.com/questions/10003683/how-can-i-extract-a-number-from-a-string-in-javascript)
+* Regex (https://stackoverflow.com/questions/10003683/how-can-i-extract-a-number-from-a-string-in-javascript)
 
 
-* background image staying as it is(https://www.youtube.com/watch?v=hVdTQWASliE)
+* Background image staying as it is(https://www.youtube.com/watch?v=hVdTQWASliE)
 
-* web share API ( https://benkaiser.dev/sharing-images-using-the-web-share-api/)
+* Web share API ( https://benkaiser.dev/sharing-images-using-the-web-share-api/)
 
-* used contrasting color from (https://app.contrast-finder.org/?lang=en)
+* Used contrasting color from (https://app.contrast-finder.org/?lang=en)
 
 
 
