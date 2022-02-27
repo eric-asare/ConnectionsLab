@@ -124,25 +124,23 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 
             The aftermath of the creation, the user will be taken to a page where the user will see and interact with the `share and save buttons`. 
 
+<table>
+<tr>
+<th> Initial Design </th>
+<th> Updated Design with User Journey </th>
+</tr>
+<tr>
+<td>
 
-             <table>
-              <tr>
-             <th> Initial Design </th>
-             <th> Updated Design with User Journey </th>
-            </tr>
-             <tr>
-             <td>
+![Share Page](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/sharePage.png)
 
-             ![Share Page](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/sharePage.png)
+</td>
+<td>
 
-             </td>
-             <td>
-
-             ![Download shot](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/downloadShot.png)
-
-             </td>
-             </tr>
-            </table>
+![Download shot](https://eric-asare.github.io/ConnectionsLab/projectOne/images/documentationImages/downloadShot.png)
+</td>
+</tr>
+</table>
 
            
         * It is worth noting that the whole site is a `one page site, scrollable but have buttons to help user jump between sections` make the webpage more flexible and fun to interact with. 
@@ -193,12 +191,12 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
    * #### Layout - HTML
       * Showcase ( Landing Page)
         - The content on the landing page were overflowing so I made `div` with viewheight (`vh`) of 100%. This prevented showcase page from overflowing into the quote (creativity) section 
-``` css
-    .landing__background {
-    height: 100vh;
-}
+     ``` css
+         .landing__background {
+         height: 100vh;
+           }
 
-```
+     ```
      <table>
      <tr>
      <th> Overflow Problem </th>
@@ -350,7 +348,7 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
 
 ```
   
-   * Canvas Preview Upon clicking Create not showing as expected (works on local machine but not after uploading on github)
+   * Canvas Preview Upon clicking Create not showing as expected (works on local machine but not after uploading on github - update : worked on Safari browser)
       - It seems I have to add padding on the html for the image to show and that distorts the overall layout - got pretty stressed about this and stopped working on it. Leading it for future iterations
 
      <table>
