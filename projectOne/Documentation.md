@@ -169,6 +169,12 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
    * #### Data & APIs & Libraries
      * Getting Quotes that were not neccessarily inspirational 
          - Specified the API REQUEST by calling for not just a random quote but quotes with tags of inspirational success or happiness. 
+      ``` javascript
+
+        const response = await fetch("https://api.quotable.io/random?tags=inspirational|happiness|success&maxLength=100");
+        const data = await response.json();
+
+      ```
     
      * Really Long Quotes disrupting design 
          - Limited the API to request 10 to 30 word which is easy to read and not overwhelming the user
@@ -176,10 +182,23 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
      * Using html2canvas.js
          - Coudn't load html2canvas.js when I downloaded the library onto my pc but could load it when I used the cdjns on https://cdnjs.com/ to import it. 
 
+      ```html
+
+    <!-- HTML2CANVAS LIBRARY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+      ```
+
    * #### Layout - HTML
       * Showcase ( Landing Page)
         - The content on the landing page were overflowing so I made `div` with viewheight (`vh`) of 100%. This prevented showcase page from overflowing into the quote (creativity) section 
-    
+``` css
+    .landing__background {
+    height: 100vh;
+}
+
+```
      <table>
      <tr>
      <th> Overflow Problem </th>
@@ -204,6 +223,27 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
             * Making the user select only one of the images at a time
               - One challenge I run into was making all the four radio buttons act as one. selecting one will deselect the other. I learnt a good trick to give all the radio buttons the same name so that selecting one will deselect the others. 
              * Making the radio buttons appear as images and not ugly radio buttons
+             
+```css
+        
+.design__background-image-selector [type=radio] {
+    display: none;
+}
+
+.design__background-image-selector [type=radio]+img {
+    cursor: pointer;
+}
+
+.design__background-image-selector img:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.design__background-image-selector [type=radio]:checked+img {
+    outline: 2px solid red;
+}
+
+```
 
    * #### Interaction - JS
    * Real Time Image Selection Preview
@@ -219,13 +259,96 @@ Inspire! is a free, flexible, encouraging,and fun  webpage that is specially des
             The above wasn't working , it seems I can only change the radio button when I have another button to use as event listener. 
 
             - what worked was listening to each radio button ( images to be selected) and if one of the radio buttons changes it state, I use the name of the changed radio button to set the background of the canvas.
+
+
+``` javascript
+
+    //  DESIGN IMAGE SELECTION AND PREVIEW 
+    document.querySelectorAll('input[name = "bg"]').forEach(item => {
+        item.addEventListener('change', (e) => {
+            console.log(e.target);
+
+            // Look for the number in the string
+            imageID = e.target.value.replace(/^\D+/g, '');
+            document.getElementById("design__canvas-bg").src = backgroundImages[imageID];
+        })
+    })
+
+
+```
         
    * Multiple creation of the canvas file when create button is clicked. 
       - To prevent this I reset the inner HTML , everytime create button is click;
 
+``` javascript
+
+    // GENERATE CANVAS
+    document.getElementById("generate").addEventListener("click",
+        function generate() {
+            document.getElementById("render").innerHTML = "";
+
+            html2canvas(document.querySelector("#capture")).then(canvas => {
+                document.getElementById("render").appendChild(canvas);
+            });
+
+        })
+
+
+```
    * Sharing
       - The Web Share API will show the user all the sharing apps on their device for the user to select one 
       - The sharing API was not working on Chrome but after researching I found out Android and iOS are the major platforms supported, Safari working. So tested the sharing option on Safari. 
+
+
+``` javascript
+
+    // SHARE CANVAS
+
+    document.getElementById('share-img').addEventListener('click',
+        async function shareCanvas() {
+
+            const canvasElement = document.querySelector('canvas');
+            console.log(canvasElement);
+
+            // show errow that no canvas available
+
+            try {
+                const dataUrl = canvasElement.toDataURL();
+            } catch (err) {
+                alert('Click on Create button above to generate Graphic Quote');
+            }
+
+            try {
+                const blob = await (await fetch(dataUrl)).blob();
+            } catch (err) {
+                alert('Your browser does not support direct sharing');
+            }
+
+            const filesArray = [
+                new File(
+                    [blob],
+                    'design.jpg', {
+                        type: blob.type,
+                        lastModified: new Date().getTime()
+                    }
+                )
+            ];
+            const shareData = {
+                files: filesArray,
+            };
+
+            try {
+                await navigator.share(shareData)
+                console.log('shared successfully');
+            } catch (err) {
+                alert('Your browser does not support direct sharing');
+            }
+        }
+
+    )
+
+
+```
   
    * Canvas Preview Upon clicking Create not showing as expected (works on local machine but not after uploading on github)
       - It seems I have to add padding on the html for the image to show and that distorts the overall layout - got pretty stressed about this and stopped working on it. Leading it for future iterations
