@@ -24,13 +24,13 @@ a Node-Express app that serves super cars web page. This webpage uses a custom A
          
 
     * ### Data, Layout, Styling , Interaction Decisions
-        * Super Cars are cool but prices can be too much. So it's important you find the one you can afford thus the need for a price selection box. 
-        * Created my super cars data by including image, name and price of each car. Using 3 cars. 
-        * Most car brand websites do not show the prices upfront so I decided to include an element of that in my webpage
-        * Use flex to ensure device responsiveness
-        * No need to include a search feature to use params. It doesn't make sense since you have only 3 items in your dataset
-        * webpage fetches using query even though params is implemented 
-        * Chose a luxury font
+       * Super Cars are cool but prices can be too much. So it's important you find the one you can afford thus the need for a price selection box. 
+       * Created my super cars data by including image, name and price of each car. Using 3 cars. 
+       * Most car brand websites do not show the prices upfront so I decided to include an element of that in my webpage
+       * Use flex to ensure device responsiveness
+       * No need to include a search feature to use params. It doesn't make sense since you have only 3 items in your dataset
+       * webpage fetches using query even though params is implemented 
+       * Chose a luxury font
 
 ## Challenges & Solutions
    * Entered npm start after navigating into my project folder but an error occured. Remember I have to first type npm init then include the start json info. 
