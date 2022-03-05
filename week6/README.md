@@ -18,12 +18,18 @@ a Node-Express app that serves super cars web page. This webpage uses a custom A
         6. Add Minimal Styling - CSS
         7. Ensure it's mobile responsive - CSS
 
-   * ### The WireFrame
-   
+  * ### The WireFrame
        ![Super Cars Site Wireframe](https://eric-asare.github.io/ConnectionsLab/week6/design/superCarsWireframe.png)
          
-
-    * ### Data, Layout, Styling , Interaction Decisions
+  * ### The Plan
+        1. Decide on data to serve on custom API
+        2. Draw wireframe of webpage
+        3. Build custom API
+        4. Code up wireframe - HTML
+        5. Make Interactions work - JS
+        6. Add Minimal Styling - CSS
+    
+  * ### Data, Layout, Styling , Interaction Decisions
        * Super Cars are cool but prices can be too much. So it's important you find the one you can afford thus the need for a price selection box. 
        * Created my super cars data by including image, name and price of each car. Using 3 cars. 
        * Most car brand websites do not show the prices upfront so I decided to include an element of that in my webpage
