@@ -20,7 +20,7 @@ a Node-Express app that serves super cars web page. This webpage uses a custom A
 
    * ### The WireFrame
    
-       ![Super Cars Site Wireframe](https://eric-asare.github.io/ConnectionsLab/projectOne/design/superCarsWireframe.png)
+       ![Super Cars Site Wireframe](https://eric-asare.github.io/ConnectionsLab/week6/design/superCarsWireframe.png)
          
 
     * ### Data, Layout, Styling , Interaction Decisions
