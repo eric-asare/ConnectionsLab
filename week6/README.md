@@ -16,7 +16,7 @@ a Node-Express app that serves super cars web page. This webpage uses a custom A
         4. Code up wireframe - HTML
         5. Make Interactions work - JS
         6. Add Minimal Styling - CSS
-        7. Ensure it's mobile responsive - CSS
+   
 
   * ### The WireFrame
        ![Super Cars Site Wireframe](https://eric-asare.github.io/ConnectionsLab/week6/design/superCarsWireframe.png)
