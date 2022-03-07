@@ -28,6 +28,7 @@ a Node-Express app that serves super cars web page. This webpage uses a custom A
         4. Code up wireframe - HTML
         5. Make Interactions work - JS
         6. Add Minimal Styling - CSS
+        7. Ensure Mobile Responsiveness - CSS
     
   * ### Data, Layout, Styling , Interaction Decisions
        * Super Cars are cool but prices can be too much. So it's important you find the one you can afford thus the need for a price selection box. 
