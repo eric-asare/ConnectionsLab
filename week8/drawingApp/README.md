@@ -29,7 +29,7 @@ The ability to open 2 browser tabs and share data in real-time between the two N
 ## Production
 
   * ### The WireFrame
-       ![Wireframe](https://eric-asare.github.io/ConnectionsLab/week8/design/wireframe.png)
+       ![Wireframe](https://eric-asare.github.io/ConnectionsLab/week8/drawingApp/design/wireframe.png)
          
   * ### SERVER - CLIENT FLOW
         1. Get input from the user using click 
