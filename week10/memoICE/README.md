@@ -7,12 +7,12 @@ MemoICE is a memory game designed to train the brain , increase once's vocabular
 MemoICE has easy, medium, difficult and pro levels. Users can select the level and enter the room designed purposely for such level of gaming. 
 
 ### WORKING LINK
-The working link to working page [WebPage-Progress](https://eric-asare.github.io/ConnectionsLab/projectOne/index.html)
+The working link to working page [WebPage-Progress](https://twilight-fringe-casquette.glitch.me)
 
 
 ### WIREFRAME
 
-  ![Layout Sketch](https://eric-asare.github.io/ConnectionsLab/projectOne/design/layoutSketches.png)
+  ![Layout Sketch](https://eric-asare.github.io/ConnectionsLab/week10/memoICE/design/wireframe.png)
 
 ### STEPS COMPLETED
 This is the game flow
