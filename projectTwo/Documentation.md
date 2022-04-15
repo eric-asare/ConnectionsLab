@@ -176,10 +176,10 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
    </tr>
    <tr>
       <td>
-         ![memorize](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/instructionsChange1.png)
+      ![memorize](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/instructionsChange1.png)
       </td>
       <td>
-         ![recall](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/instructionsChange2.png
+      ![recall](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/instructionsChange2.png
       </td>
    </tr>
    </table>
