@@ -167,11 +167,9 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
 
 
 
-   11. Made the instructions clear by adding an idea/hint * emoji/ changing the instruction depending the stage of the game <br>
-   Memorize <br>![memorize](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/instructionsChange1.png
-   Recall <br>![recall](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/instructionsChange2.png
-   
-
+   11. Made the instructions clear by adding an idea/hint * emoji/ changing the instruction depending the stage of the game
+   ![Memorize](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/instructionsChange1.png)
+   ![Recall](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/instructionsChange2.png)
 
    12. Added a single line of code `  elem.scrollTop = elem.scrollHeight;` which makes it easier to users to focus on the game and not scroll as they type their answers. essentially, an automatic scroller
 
