@@ -22,7 +22,7 @@ The working link to final webpage [WebPage-Final](https://memo-ice-game.glitch.m
 
 ![show Page final](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/wordsShowPage.png)
 
-The link to the progress 6 page [Functional without styling)](https://memo-ice-progress6.glitch.me)
+The link to the [Functional page without styling](https://memo-ice-progress6.glitch.me)
 
 ![show page before](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/evaluationcomplex.png)
 
