@@ -48,26 +48,23 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
   ![Layout Sketch](https://eric-asare.github.io/ConnectionsLab/week10/memoICE/design/wireframe.png)
 
   
-   * ### The Game Flow Steps 
-    
-    * Two users  enter their name and join the same room from the lobby or landing page ( There are 4 rooms based on game difficulty : easy, medium, hard, pro levels)
+   ### The Game Flow Steps 
+   *  Two users  enter their name and join the same room from the lobby or landing page ( There are 4 rooms based on game difficulty : easy, medium, hard, pro levels)
+   * When a third User Join, he or she is prompted to join another room
+   
+   *  Only one user has to click the start button. Once, the start button is clicked, the client side sends a signal to the server to load the game data ( ideally , words to test users based on level selected). 
+   
+   *  Client upon receiving this game data displays to the users and starts the memorization timer. 
+   
+   *  Once the timer is done, the clients sends to server memorization time is over, the server sends to the client to start recalling. a text box appears to the users telling them to enter the words they remember. A timer for this stage of the game begins to cause the users to feel a sense of urgency.
+   
+   * When users submit a word, the data is sent from the client side to the server side 
+   
+   * The server upon receiving the wordInput data prepares a progress report to send to client by 1. keeping track of the name of the user who submitted the word, 2. where the word is correct or wrong 3. Score increment and deduction
+   
+   * The client upon receiving the progress report back displays to the user in a game window
 
-
-    * When a third User Join, he or she is prompted to join another room
-
-    * Only one user has to click the start button. Once, the start button is clicked, the client side sends a signal to the server to load the game data ( ideally , words to test users based on level selected). 
-
-    * Client upon receiving this game data displays to the users and starts the memorization timer. 
-
-    * Once the timer is done, the clients sends to server memorization time is over, the server sends to the client to start recalling. a text box appears to the users telling them to enter the words they remember. A timer for this stage of the game begins to cause the users to feel a sense of urgency.
-
-    * When users submit a word, the data is sent from the client side to the server side 
-
-    * The server upon receiving the wordInput data prepares a progress report to send to client by 1. keeping track of the name of the user who submitted the word, 2. where the word is correct or wrong 3. Score increment and deduction
-
-    * The client upon receiving the progress report back displays to the user in a game window
-
-    * When the recalling phase timer is over, the client send to server gameOver, the server then emits to the client to change the game page to the lobby page showing the users their results and allowing them to play the game again. 
+   *  When the recalling phase timer is over, the client send to server gameOver, the server then emits to the client to change the game page to the lobby page showing the users their results and allowing them to play the game again. 
          
    * ### User Testing 
         The user testing page (progress 3): [Just Functional enough for user testing](https://ivory-prism-crafter.glitch.me/)
