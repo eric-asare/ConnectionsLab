@@ -95,7 +95,7 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
       4. Can we have a link to go back to the LOBBY/ level selection
       5. What are we playing the against if it is not against each other? Can you add a Time pressure? 
       6. Is there a way to know the number of words left to type
-      7.Can you colour code based on player
+      7. Can you colour code based on player
       8. Could you add an element of competition among the Users
       9. Could you separate clearly the words each player typed
       10. What happens if I type the same "correct" word. Is the score incremented or stays the same? (Prof :) )
@@ -115,54 +115,35 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
   2. Cleared the input area so that users may simply type new words without having to delete previous ones.
   
   3. I added alert messages to inform users if they should wait for a game partner to join or play the game as room is full. 
-  <table>
-  <tr>
-  <th> One Player in Room </th>
-  <th> Two Players in Room</th>
-  <th> Third Player tries to join full Room</th>
-  </tr>
-  <tr>
-  <td>![wait for team member](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/waitforTeamMember.png)
-
-  </td>
-  <td>
+   ![wait for team member](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/waitforTeamMember.png)
   ![team members full](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/teamMembersFull.png)
-  </td>
-  <td>
-
+ 
   ![room full](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/roomFull.png)
 
-  </td>
-  </tr>
-  </table>
 
 
 
-        4. Removed the send button because users were confused whether they could submit by presssing enter. Since the game is time pressured, any little time lost in the process is nerve wracking.
+   4. Removed the send button because users were confused whether they could submit by presssing enter. Since the game is time pressured, any little time lost in the process is nerve wracking.
 
-        5. Made Sure that user can enter room only after entering name
+   5. Made Sure that user can enter room only after entering name
 
+   6. Added a timer to heat up the recall stage. Users feel a sense of urgency to type all the words they can remember as fast as they can. To display the timer nicely, I had to check if I am dealing with a single digit so that the timer don't appear as shown below. Helpful resource linked below. 
 
-
-        6. Added a timer to heat up the recall stage. Users feel a sense of urgency to type all the words they can remember as fast as they can. To display the timer nicely, I had to check if I am dealing with a single digit so that the timer don't appear as shown below. Helpful resource linked below. 
-
-        ![is Digit](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/isDigit.png)
+       ![is Digit](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/isDigit.png)
         
-
-        7. Added a `div` just below the timer to allow the user know the the number of words left to recall
-
+   7. Added a `div` just below the timer to allow the user know the the number of words left to recall
 
         ![wordsLeft](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/isDigit.png)
 
 
-        8. Color coded users using two colors defined from server
+   8. Color coded users using two colors defined from server
         ![colorCoding](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/colorCoding2.png)
 
 
-        9. Added sanity checks to not increment score if the word is already typed
+   9. Added sanity checks to not increment score if the word is already typed
 
 
-        10. Added a type writer effect to give users a feel of what's the game is about in an ironic way. Sad I couldn't show this in class.
+   10. Added a type writer effect to give users a feel of what's the game is about in an ironic way. Sad I couldn't show this in class.
          ![is Digit](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/memoICE.gif)
 
 
