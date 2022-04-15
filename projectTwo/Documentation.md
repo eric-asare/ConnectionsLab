@@ -74,20 +74,20 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
    
    **Disclaimer:** Names of participants omitted for privacy. Users responses are weaved into a single answer. 
    
-   * What is your first impression of the product?
+   * What is your first impression of the product? <br>
    **Ans:** It is an interesting game. The easy level is going to be easy. The words will be straigtforward.
 
-   * What is going in your mind as you interact with this product?
+   * What is going in your mind as you interact with this product?<br>
    **Ans:** This is interesting. The game play seems straight forward. Are all these words? Where did you get these words? Wait the easy level is not as easy as it seems. I am too dumb. I should type fast,time ticking. 
 
-   * What did you expect to happen?
+   * What did you expect to happen?<br>
    **Ans:** Thought it was a competition game but turns out to be a collaboration game? Thought it would be easy. 
 
-   * Does this feel like it was designed for you?
+   * Does this feel like it was designed for you?<br>
    **Ans:** Oh yes!,  No I am too dumb, my memory not so good for this game lol. Could be easier. 
 
 
-   * What would you change? What should be added or removed to enhance your experience. 
+   * What would you change? What should be added or removed to enhance your experience.<br>
    **Ans:**
    1. Could you clearly tell players whether they are collaborating or competing against each other.
    2. Could you clear the input so that I don't have to clean it when typing a new word
@@ -102,19 +102,15 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
    11. Could you randomize the words? If I play for a long time. I would want to see new words
    12. You could use [pantone colors](https://www.pantone.com/uk/en/color-of-the-year-2022-palette-exploration) for the UI 
 
-        * Since this is still a project in development what would you like to see in the newer version?
-        **Ans:** 1. Maybe a communication system so that users can talk to each other as they play the game 2. Hints for the words if we fail guess
+    * Since this is still a project in development what would you like to see in the newer version?<br>
+    **Ans:** 1. Maybe a communication system so that users can talk to each other as they play the game 2. Hints for the words if we fail guess
 
-        * #### Updates from User Testing (7th April 2022)
-        User testing allowed me to discover what was important to my users rather than what I wanted to build.
-
-        I implemented the following from the user testing to enhance the overall game experience. 
-
-
-        1. I added text **COLLABORATE** to tell users this game is about collaboration as it is about competition in the game result.
-
-             
-        ![congrats page](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/congratsPage.png)
+  #### Updates from User Testing (7th April 2022)
+  User testing allowed me to discover what was important to my users rather than what I wanted to build.<br>
+  I implemented the following from the user testing to enhance the overall game experience. 
+  
+  1. I added text **COLLABORATE** to tell users this game is about collaboration as it is about competition in the game result.
+  ![congrats page](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/congratsPage.png)
 
 
         2. Cleared the input area so that users may simply type new words without having to delete previous ones.
