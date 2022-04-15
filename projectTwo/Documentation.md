@@ -130,7 +130,7 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
         
    7. Added a `div` just below the timer to allow the user know the the number of words left to recall
 
-        ![wordsLeft](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/isDigit.png)
+        ![wordsLeft](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/wordsLeft.png)
 
 
    8. Color coded users using two colors defined from server
