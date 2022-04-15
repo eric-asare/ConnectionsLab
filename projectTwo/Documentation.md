@@ -185,18 +185,17 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
         </tr>
         </table>
 
-        12. Added a single line of code `  elem.scrollTop = elem.scrollHeight;` which makes it easier to users to focus on the game and not scroll as they type their answers. essentially, an automatic scroller
 
-        13. Added repeat emoji if word is repeated, correct emoji if correct and wrong emoji if wrong
+   12. Added a single line of code `  elem.scrollTop = elem.scrollHeight;` which makes it easier to users to focus on the game and not scroll as they type their answers. essentially, an automatic scroller
 
-        ![eval](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/eval.png)
+   13. Added repeat emoji if word is repeated, correct emoji if correct and wrong emoji if wrong
+   ![eval](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/eval.png)
+
+   14. Kept track of each players score
+    ![addedUserScore](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/addedUserScore.png)
 
 
-        14. Kept track of each players score
-        ![addedUserScore](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/addedUserScore.png)
 
-
-    
 ## Challenges & Solutions
 * For the individual score, I tried to storing the initial score in local storage but realize there is no need to. I can keep a score board with names stored in a similar ways to how I stored the names for easy retrieval. This is how the scores work, think I need an info page for that . or I can explain on the pop up score page. Individually, these are your scores but togehter this are your scores, the together will appear smaller because all wrongs committed on both side are accounted. So if you plan to play collaborately and not be greedy to get all the correct words, you will attempt few minimizing the wrongs and having a total score big enough. 
 
