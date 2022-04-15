@@ -1,5 +1,5 @@
 <!-- blank line -->
 <figure class="video_container">
-<iframe src="https://giphy.com/embed/BO0B1hyYj7YZbHlBtv" width="480" height="370" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+  <iframe src="https://media.giphy.com/media/BO0B1hyYj7YZbHlBtv/giphy.gif" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 <!-- blank line -->
