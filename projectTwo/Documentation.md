@@ -167,7 +167,7 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
 
 
 
-   11. Made the instructions clear by adding an idea/hint * emoji/ changing the instruction depending the stage of the game
+   11. Made the instructions clear by adding an idea/hint * emoji/ changing the instruction depending the stage of the game <br>
    ![Memorize](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/instructionsChange1.png)
    ![Recall](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/instructionsChange2.png)
 
