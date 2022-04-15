@@ -42,8 +42,9 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
    I will be building MemoICE in two phases. The first phase will be purely functional with less aesthetics for user testing whilst the second phase will be an upgrade on the UI based primarily on the results of the user testing. 
 
    * ### The WireFrame
-         I started off with a simple sketch of the game flow to inform the phase 1 coding. I didn't make a lot of sketches in project two because I focussed more on the communication between client and server (game flow) which is listed below. The user interface became really clear as a result of the user testing. 
-     
+   
+   * I started off with a simple sketch of the game flow to inform the phase 1 coding. I didn't make a lot of sketches in project two because I focussed more on the communication between client and server (game flow) which is listed below. The user interface became really clear as a result of the user testing. 
+
   ![Layout Sketch](https://eric-asare.github.io/ConnectionsLab/week10/memoICE/design/wireframe.png)
 
   
