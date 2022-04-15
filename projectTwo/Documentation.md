@@ -89,21 +89,21 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
 
    * What would you change? What should be added or removed to enhance your experience.<br>
    **Ans:**
-   1. Could you clearly tell players whether they are collaborating or competing against each other.
-   2. Could you clear the input so that I don't have to clean it when typing a new word
-   3. Can you show whether I am alone in the room or the room is full?
-   4. Can we have a link to go back to the LOBBY/ level selection
-   5. What are we playing the against if it is not against each other? Can you add a Time pressure? 
-   6. Is there a way to know the number of words left to type
-   7.  Can you colour code based on player
-   8. Could you add an element of competition among the Users
-   9. Could you separate clearly the words each player typed
-   10. What happens if I type the same "correct" word. Is the score incremented or stays the same? (Prof :) )
-   11. Could you randomize the words? If I play for a long time. I would want to see new words
-   12. You could use [pantone colors](https://www.pantone.com/uk/en/color-of-the-year-2022-palette-exploration) for the UI 
-
-    * Since this is still a project in development what would you like to see in the newer version?<br>
-    **Ans:** 1. Maybe a communication system so that users can talk to each other as they play the game 2. Hints for the words if we fail guess
+      1. Could you clearly tell players whether they are collaborating or competing against each other.
+      2. Could you clear the input so that I don't have to clean it when typing a new word
+      3. Can you show whether I am alone in the room or the room is full?
+      4. Can we have a link to go back to the LOBBY/ level selection
+      5. What are we playing the against if it is not against each other? Can you add a Time pressure? 
+      6. Is there a way to know the number of words left to type
+      7.Can you colour code based on player
+      8. Could you add an element of competition among the Users
+      9. Could you separate clearly the words each player typed
+      10. What happens if I type the same "correct" word. Is the score incremented or stays the same? (Prof :) )
+      11. Could you randomize the words? If I play for a long time. I would want to see new words
+      12. You could use [pantone colors](https://www.pantone.com/uk/en/color-of-the-year-2022-palette-exploration) for the UI 
+      
+   * Since this is still a project in development what would you like to see in the newer version?<br>
+   **Ans:** 1. Maybe a communication system so that users can talk to each other as they play the game 2. Hints for the words if we fail guess
 
   #### Updates from User Testing (7th April 2022)
   User testing allowed me to discover what was important to my users rather than what I wanted to build.<br>
@@ -111,35 +111,30 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
   
   1. I added text **COLLABORATE** to tell users this game is about collaboration as it is about competition in the game result.
   ![congrats page](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/congratsPage.png)
+  
+  2. Cleared the input area so that users may simply type new words without having to delete previous ones.
+  
+  3. I added alert messages to inform users if they should wait for a game partner to join or play the game as room is full. 
+  <table>
+  <tr>
+  <th> One Player in Room </th>
+  <th> Two Players in Room</th>
+  <th> Third Player tries to join full Room</th>
+  </tr>
+  <tr>
+  <td>![wait for team member](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/waitforTeamMember.png)
 
+  </td>
+  <td>
+  ![team members full](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/teamMembersFull.png)
+  </td>
+  <td>
 
-        2. Cleared the input area so that users may simply type new words without having to delete previous ones.
+  ![room full](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/roomFull.png)
 
-        3. I added alert messages to inform users if they should wait for a game partner to join or play the game as room is full. 
-
-        <table>
-        <tr>
-        <th> One Player in Room </th>
-        <th> Two Players in Room</th>
-        <th> Third Player tries to join full Room</th>
-        </tr>
-        <tr>
-        <td>
-
-        ![wait for team member](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/waitforTeamMember.png)
-
-        </td>
-        <td>
-
-        ![team members full](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/teamMembersFull.png)
-        </td>
-        <td>
-
-        ![room full](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/roomFull.png)
-
-        </td>
-        </tr>
-        </table>
+  </td>
+  </tr>
+  </table>
 
 
 
