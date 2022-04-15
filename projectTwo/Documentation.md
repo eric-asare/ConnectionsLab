@@ -109,7 +109,7 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
   User testing allowed me to discover what was important to my users rather than what I wanted to build.<br>
   I implemented the following from the user testing to enhance the overall game experience. 
   
-  1. I added text **COLLABORATE** to tell users this game is about collaboration as it is about competition in the game result.
+  1. I added text **COLLABORATE** to tell users this game is about collaboration as it is about competition in the game result.<br>
   ![congrats page](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/congratsPage.png)
   
   2. Cleared the input area so that users may simply type new words without having to delete previous ones.
