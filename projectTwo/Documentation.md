@@ -114,20 +114,17 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
   
   2. Cleared the input area so that users may simply type new words without having to delete previous ones.
   
-  3. I added alert messages to inform users if they should wait for a game partner to join or play the game as room is full. 
+  3. I added alert messages to inform users if they should wait for a game partner to join or play the game as room is full.<br>
    ![wait for team member](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/waitforTeamMember.png)
   ![team members full](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/teamMembersFull.png)
  
   ![room full](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/roomFull.png)
 
-
-
-
    4. Removed the send button because users were confused whether they could submit by presssing enter. Since the game is time pressured, any little time lost in the process is nerve wracking.
 
    5. Made Sure that user can enter room only after entering name
 
-   6. Added a timer to heat up the recall stage. Users feel a sense of urgency to type all the words they can remember as fast as they can. To display the timer nicely, I had to check if I am dealing with a single digit so that the timer don't appear as shown below. Helpful resource linked below. 
+   6. Added a timer to heat up the recall stage. Users feel a sense of urgency to type all the words they can remember as fast as they can. To display the timer nicely, I had to check if I am dealing with a single digit so that the timer don't appear as shown below. Helpful resource linked below.<br>
 
        ![is Digit](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/isDigit.png)
         
@@ -143,7 +140,7 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
    9. Added sanity checks to not increment score if the word is already typed
 
 
-   10. Added a type writer effect to give users a feel of what's the game is about in an ironic way. Sad I couldn't show this in class.
+   10. Added a type writer effect to give users a feel of what's the game is about in an ironic way. Sad I couldn't show this in class.<br>
          ![is Digit](https://eric-asare.github.io/ConnectionsLab/projectTwo/design/doc-images/memoICE.gif)
 
 
