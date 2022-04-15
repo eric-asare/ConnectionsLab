@@ -38,10 +38,10 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
 ---
 
 ## Production
-   * ### The Plan
+   ### The Plan
    I will be building MemoICE in two phases. The first phase will be purely functional with less aesthetics for user testing whilst the second phase will be an upgrade on the UI based primarily on the results of the user testing. 
 
-   * ### The WireFrame
+   ### The WireFrame
    
    * I started off with a simple sketch of the game flow to inform the phase 1 coding. I didn't make a lot of sketches in project two because I focussed more on the communication between client and server (game flow) which is listed below. The user interface became really clear as a result of the user testing. 
 
@@ -66,7 +66,7 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
 
    *  When the recalling phase timer is over, the client send to server gameOver, the server then emits to the client to change the game page to the lobby page showing the users their results and allowing them to play the game again. 
          
-   * ### User Testing 
+   ### User Testing 
         The user testing page (progress 3): [Just Functional enough for user testing](https://ivory-prism-crafter.glitch.me/)
 
        * #### Testing Questions & User Answers
@@ -275,13 +275,13 @@ It appears that you can control [in built alert](https://stackoverflow.com/quest
 
 
 ## Lessons
-  * #### Technical & Design
+  #### Technical & Design
 * Lots of bugs in client-socket communication can be solved by running the little client -server communication as I write 
 
 * Learned you can create a type writer effect by using Javascript classes (https://codepen.io/bradtraversy/pen/jeNjwP)
 
 
-  * #### General
+  #### General
 
 * It is good to be ambitious but always take a step back to evaluate what you have and think of how to maximize the user experience. For instance, I wanted to add NeDB for score Board, a bubble floating word etc. However as described above, I found other ways to accomplish the same user experience and even better ways by just working with what I have. 
 
