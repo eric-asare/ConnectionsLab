@@ -199,6 +199,8 @@ io.sockets.on('connect', (socket) => {
     socket.on('wordInput', (data) => {
 
         let word = data.word;
+        // remove extra spaces
+        word = word.trim();
 
         let totalWords = wordBank[socket.roomName].length;
 
