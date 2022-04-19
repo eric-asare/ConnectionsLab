@@ -17,7 +17,7 @@ It is fun, nerve racking, brain teasing and a powerful relationship builder.
 
 
 
-Built using Node, Express, and socket.io
+**Built using Node, Express, and socket.io**
 
 ## Website
 The working link to final webpage [WebPage-Final](https://memo-ice-game.glitch.me)
