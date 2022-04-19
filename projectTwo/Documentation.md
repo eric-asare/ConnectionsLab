@@ -162,6 +162,8 @@ The link to the [Functional page without styling](https://memo-ice-progress6.gli
 ## Challenges & Solutions
 * For the individual score, I tried to storing the initial score in local storage but realize there is no need to. I can keep a score board with names stored in a similar ways to how I stored the names for easy retrieval. This is how the scores work, think I need an info page for that . or I can explain on the pop up score page. Individually, these are your scores but togehter this are your scores, the together will appear smaller because all wrongs committed on both side are accounted. So if you plan to play collaborately and not be greedy to get all the correct words, you will attempt few minimizing the wrongs and having a total score big enough. 
 
+* The glitch was solved by add ` word = word.trim();` which removes all spaces before evaluation. 
+
 
 ``` javascript
 
