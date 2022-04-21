@@ -1,0 +1,81 @@
+html {
+    font-family: 'Stick No Bills', sans-serif;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.sub-container {
+    display: flex;
+    width: 50%;
+    max-width: 1000px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.chat-box {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    overflow: auto;
+    margin: 0 auto;
+    width: 30%;
+}
+
+p {
+    overflow-wrap: break-word;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#message {
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 30px;
+    width: 25em;
+}
+
+.bot {
+    color: rgb(109, 109, 212);
+    text-align: left;
+    margin-right: auto;
+}
+
+.bot-text {
+    text-align: left;
+    margin-right: auto;
+    color: white;
+}
+
+.self {
+    text-align: right;
+    margin-left: auto;
+    color: orange;
+}
+
+.self-text {
+    text-align: right;
+    margin-left: auto;
+    color: white;
+}
+
+.underline {
+    border-bottom: 2px solid white;
+}
+
+@media (max-width: 800px) {
+    .sub-container {
+        width: 75%;
+    }
+    #message {
+        width: 10em;
+    }
+}

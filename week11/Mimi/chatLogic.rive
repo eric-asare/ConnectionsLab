@@ -1,0 +1,34 @@
+
+! version = 2.0
+
+
++(hello|hi|hey|howdy|hola|hai|yo) [*]
+- hello, welcome to Mimi-The-Bot, what is your name?
+
++ hi
+- hi, what is your name?
+
++ my name is *
+- nice to meet you <star>
+- nice meeting you <star>
+
++ thank you
+- you are welcome
+- welcome
+- no problem
+- no worries
+
+
++ tell a joke 
+- How do all the oceans say hello to each other? They wave!
+- What do you call cheese that isn’t yours? Nacho cheese!
+- What do you call a fly without wings? A walk!
+- What has four wheels and flies? A garbage truck!
+- What do you call a bear with no teeth? A gummy bear!
+
++ *
+- Sorry did not get what you said
+- I am afraid that i can not understand you
+- I did not get it
+- Sorry can you please elaborate that for me
+- Hey I can tell you a joke instead. 
