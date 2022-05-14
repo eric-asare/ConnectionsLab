@@ -44,7 +44,13 @@ _The WireFrame_
 
 I started off with a simple sketch of the game flow to inform the phase 1 coding. I didn't make a lot of sketches in project three because I focussed more on the communication between client and server (game flow) which is listed below. The user interface became really clear as a result of the user testing. 
 
-![Layout Sketch](https://eric-asare.github.io/ConnectionsLab/week10/memoICE/design/collabDrawWireframe.png)
+<p align="center">
+  <img 
+    width="800"
+    height="800"
+    src="https://eric-asare.github.io/ConnectionsLab/projectThree/design/cdWire.png"
+  >
+</p>
 
 _The Game Flow Steps_  
 * Two users join the same room. Room is full when two people join. When a third User Join, he or she is prompted to join another room
@@ -175,8 +181,8 @@ I started of by using a timer loop for turns inside another timer for overall dr
 
 <p align="center">
   <img 
-    width="200"
-    height="200"
+    width="400"
+    height="400"
     src="https://eric-asare.github.io/ConnectionsLab/projectThree/design/futureBoard.png"
   >
 </p>
@@ -185,8 +191,8 @@ I started of by using a timer loop for turns inside another timer for overall dr
 
 <p align="center">
   <img 
-    width="200"
-    height="200"
+    width="400"
+    height="400"
     src="https://eric-asare.github.io/ConnectionsLab/projectThree/design/galleryDesign.png"
   >
 </p>
