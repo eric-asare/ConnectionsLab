@@ -80,24 +80,24 @@ Pictures of users interacting with the CollabDraw
 
 <p align="right">
   <img 
-    width="200"
-    height="200"
+    width="400"
+    height="400"
     src="https://eric-asare.github.io/ConnectionsLab/projectThree/design/playingtheGame1.png"
   >
 </p>
 
 <p align="left">
   <img 
-    width="200"
-    height="200"
+    width="400"
+    height="400"
     src="https://eric-asare.github.io/ConnectionsLab/projectThree/design/playingTheGame3.png"
   >
 </p>
 
 <p align="right">
   <img 
-    width="200"
-    height="200"
+    width="400"
+    height="400"
     src="https://eric-asare.github.io/ConnectionsLab/projectThree/design/playingTheGame4.png"
   >
 </p>
