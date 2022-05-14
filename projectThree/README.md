@@ -88,7 +88,7 @@ Pictures of users interacting with the CollabDraw
   <img 
     width="400"
     height="400"
-    src="https://eric-asare.github.io/ConnectionsLab/projectThree/design/playingtheGame2.png"
+    src="https://eric-asare.github.io/ConnectionsLab/projectThree/design/playingTheGame2.png"
   >
 </p>
 
