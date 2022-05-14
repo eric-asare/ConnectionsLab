@@ -71,8 +71,8 @@ Pictures of users interacting with the CollabDraw
 
 <p align="left">
   <img 
-    width="200"
-    height="200"
+    width="400"
+    height="400"
     src="https://eric-asare.github.io/ConnectionsLab/projectThree/design/playingTheGame.png"
   >
 </p>
