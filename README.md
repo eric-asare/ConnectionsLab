@@ -1,7 +1,7 @@
 # ConnectionsLab
-Course [Info](https://github.com/MathuraMG/ConnectionsLabSpring22)
+12 weeks of learning to build apps to connect and bring together people all over the world. 
 
-# Projects
+# Projects Built In the Process
 
 * [goStudy Doc](https://eric-asare.github.io/ConnectionsLab/week1/goStudyWebPageDocumentation/webpage-final/goStudyWebPage)
 * [Shopping Card](https://eric-asare.github.io/ConnectionsLab/week2/shoppingCard-Final)
