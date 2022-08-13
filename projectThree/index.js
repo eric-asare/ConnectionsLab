@@ -2,20 +2,14 @@
 let previousDrawings = []
 const MAX_USERS_ROOM = 2;
 
-
 // colors to differentiate users in same room
 const colorCode = ['brown', 'purple']
-
-
 
 //Initialize the express 'app' object
 let express = require('express');
 let app = express();
 app.use('/', express.static('public'));
 
-
-// neDB
-// const DataStore = require('nedb');
 
 //Initialize the actual HTTP server
 let http = require('http');
@@ -223,23 +217,6 @@ io.sockets.on('connect', (socket) => {
     })
 
 })
-
-
-
-// Get all cars or cars with a min price
-// app.get('/drawingsApi', (req, res) => {
-//     res.json({ test: "hello" });
-
-//     database.find({}, (err, data) => {
-//         if (err) {
-//             response.end();
-//             return
-//         }
-//         res.json(data);
-
-//     })
-
-// })
 
 
 //run the createServer
